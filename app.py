@@ -85,8 +85,7 @@ else:
             st.session_state.role = ""
 
             st.rerun()
-    
-
+        
     st.title("🏢 AI Smart Building Assistant")
 
     if page == "Home":

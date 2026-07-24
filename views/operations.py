@@ -2,6 +2,7 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 
+
 from modules.disclaimer import show_disclaimer
 
 from modules.document_loader import (
@@ -15,6 +16,7 @@ from modules.text_splitter import split_text
 from modules.rag_pipeline import generate_answer, generate_sor_answer
 
 from vectorstore.faiss_manager import create_vector_store
+
 
 st.title("📘 Operations Knowledge Assistant")
 
@@ -91,19 +93,53 @@ if uploaded_file:
 
     st.success("✅ FAISS Vector Store Created")
 
-# Ask Questions
+# Clear Chat Button
 
-question = ""
+if st.button("🗑 Clear Chat"):
+
+    st.session_state.operations_chat = []
+
+    st.rerun()
+
+
+# Initialize Chat Memory
+
+if "operations_chat" not in st.session_state:
+
+    st.session_state.operations_chat = []
+
+
+# Display Previous Messages
+
+for message in st.session_state.operations_chat:
+
+    with st.chat_message(
+        message["role"]
+    ):
+
+        st.write(
+            message["content"]
+        )
+
+
+# Ask Questions
 
 if "vector_store" in st.session_state:
 
     vector_store = st.session_state["vector_store"]
 
-    question = st.text_input(
+    question = st.chat_input(
         "Ask a question about the uploaded document"
     )
 
     if question:
+
+        st.session_state.operations_chat.append(
+            {
+                "role": "user",
+                "content": question
+            }
+        )
 
         results = vector_store.similarity_search(
             question,
@@ -113,6 +149,13 @@ if "vector_store" in st.session_state:
         answer = generate_answer(
             question,
             results
+        )
+
+        st.session_state.operations_chat.append(
+            {
+                "role": "assistant",
+                "content": answer
+            }
         )
 
         history_item = {
@@ -128,18 +171,22 @@ if "vector_store" in st.session_state:
             not st.session_state.question_history
             or st.session_state.question_history[-1]["question"] != question
         ):
+
             st.session_state.question_history.append(
                 history_item
             )
 
-        st.subheader("AI Answer")
-        st.write(answer)
-
         st.subheader("Source References")
 
         for idx, doc in enumerate(results):
-            st.write(f"Source {idx + 1}")
-            st.code(doc.page_content)
+
+            st.write(
+                f"Source {idx + 1}"
+            )
+
+            st.code(
+                doc.page_content
+            )
 
 else:
 
