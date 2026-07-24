@@ -2,6 +2,8 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 
+from modules.disclaimer import show_disclaimer
+
 from modules.document_loader import (
     read_pdf,
     read_docx,
@@ -89,47 +91,60 @@ if uploaded_file:
 
     st.success("✅ FAISS Vector Store Created")
 
-    st.markdown("---")
+# Ask Questions
 
-st.subheader("📂 Uploaded Document Library")
+question = ""
 
-st.metric(
-    "Total Documents",
-    len(st.session_state["uploaded_documents"])
-)
+if "vector_store" in st.session_state:
 
-search_term = st.text_input(
-    "🔍 Search uploaded documents"
-)
+    vector_store = st.session_state["vector_store"]
 
-df = pd.DataFrame(
-    st.session_state["uploaded_documents"]
-)
+    question = st.text_input(
+        "Ask a question about the uploaded document"
+    )
 
-if not df.empty:
+    if question:
 
-    if search_term:
+        results = vector_store.similarity_search(
+            question,
+            k=3
+        )
 
-        df = df[
-            df["name"].str.contains(
-                search_term,
-                case=False,
-                na=False
+        answer = generate_answer(
+            question,
+            results
+        )
+
+        history_item = {
+            "module": "Operations Assistant",
+            "question": question,
+            "answer": answer,
+            "timestamp": datetime.now().strftime(
+                "%Y-%m-%d %H:%M:%S"
             )
-        ]
+        }
 
-    df.index = range(
-        1,
-        len(df) + 1
-    )
+        if (
+            not st.session_state.question_history
+            or st.session_state.question_history[-1]["question"] != question
+        ):
+            st.session_state.question_history.append(
+                history_item
+            )
 
-    st.dataframe(
-        df,
-        use_container_width=True
-    )
+        st.subheader("AI Answer")
+        st.write(answer)
+
+        st.subheader("Source References")
+
+        for idx, doc in enumerate(results):
+            st.write(f"Source {idx + 1}")
+            st.code(doc.page_content)
 
 else:
 
-    st.info(
-        "No documents uploaded yet."
+    st.warning(
+        "Please upload a document first."
     )
+
+show_disclaimer()

@@ -1,5 +1,7 @@
 import streamlit as st
 
+from modules.disclaimer import show_disclaimer
+
 st.title("Methodology")
 
 st.markdown("""
@@ -32,3 +34,5 @@ Answer + Source References
 7. LLM Response Generation
 8. Source Citation
 """)
+
+show_disclaimer()

@@ -1,5 +1,7 @@
 import streamlit as st
 
+from modules.disclaimer import show_disclaimer
+
 st.title("About Us")
 
 st.write("""
@@ -15,3 +17,5 @@ then ask questions using natural language.
 Team:
 Chloe Soh Shi Ying & Loh Poh Ling
 """)
+
+show_disclaimer()
