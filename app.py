@@ -70,6 +70,8 @@ def main():
         except FileNotFoundError:
             st.sidebar.warning("⚠️ No audit log found yet.")
 
+    st.title("🏢 AI Smart Building Assistant")
+
     # Routing
     page = st.session_state["current_page"]
 

@@ -1,8 +1,9 @@
-import os
 import streamlit as st
-from modules.vector_store import load_vector_store
+
 from modules.chatbot import log_to_history, show_chatbot
-import datetime
+from modules.disclaimer import show_disclaimer
+from modules.vector_store import load_vector_store
+
 
 def show_operations_assistant():
     st.title("📑 Operations Assistant")
@@ -16,10 +17,11 @@ def show_operations_assistant():
     if vector_store:
         st.success("✅ SOP+O&M index loaded and ready")
     else:
-        st.info("⚠️ No SOP+O&M index found yet. Chatbot is still available, but answers won’t be based on SOP/O&M documents.")
+        st.info(
+            "⚠️ No SOP+O&M index found yet. Chatbot is still available, but answers won’t be based on SOP/O&M documents."
+        )
 
     st.write("Upload SOP and O&M documents on the **Upload Document** page. Then query them here.")
-
     st.markdown("---")
 
     # --- Toggle: Show sources only ---
@@ -35,14 +37,12 @@ def show_operations_assistant():
                     src = doc.metadata.get("source", "unknown")
                     page = doc.metadata.get("page", "N/A")
                     st.write(f"As a Facilities Manager, I found relevant guidance in **{src}**, page {page}:")
-                    st.code(doc.page_content[:500])  # show snippet
+                    st.code(doc.page_content[:500])
 
                 log_to_history("Operations Assistant", query, "Sources only mode", results)
         else:
             st.warning("⚠️ Sources-only mode requires an index. Please upload SOP/O&M documents first.")
-
     else:
-        # --- Chatbot mode (FM persona, grounded in SOP/O&M) ---
         show_chatbot(
             vector_store=vector_store,
             session_key="ops_chat",
@@ -51,4 +51,4 @@ def show_operations_assistant():
             role="Operations Assistant"
         )
 
-st.write("Index folder contents:", os.listdir("combined_ops_index"))
+    show_disclaimer()
