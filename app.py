@@ -1,108 +1,76 @@
 import streamlit as st
+from auth.login import show_login
+from views.home import show_home
+from views.about_us import show_about
+from views.methodology import show_methodology
+from views.upload_document import show_upload_document
+from views.operations import show_operations
+from views.sor_validator import show_sor_validator
+from views.question_history import show_history
+from views.manual import show_manual
 
-from auth.login import login
+from modules.vector_store import load_vector_store
 
-st.set_page_config(
-    page_title="AI Smart Building Assistant",
-    page_icon="🏢"
-)
-
-if "logged_in" not in st.session_state:
-    st.session_state.logged_in = False
-
+# --- Initialize session state keys ---
 if "question_history" not in st.session_state:
     st.session_state.question_history = []
 
-if "uploaded_documents" not in st.session_state:
-    st.session_state.uploaded_documents = []
+if "vector_store_ops" not in st.session_state:
+    st.session_state.vector_store_ops = load_vector_store("combined_ops_index")
 
-if not st.session_state.logged_in:
+if "vector_store_sor" not in st.session_state:
+    st.session_state.vector_store_sor = load_vector_store("SOR_index")
 
-    st.markdown("""
-    <style>
-        [data-testid="stSidebar"] {
-            display: none;
-        }
-    </style>
-    """, unsafe_allow_html=True)
+# --- Main app ---
+def main():
+    # Check login state
+    if "username" not in st.session_state:
+        show_login()
+        return
 
-    login()
+    # Sidebar navigation
+    st.sidebar.title("Navigation")
+    page = st.sidebar.radio(
+        "Go to:",
+        [
+            "Home",
+            "About Us",
+            "Methodology",
+            "Upload Document (Admin)",
+            "Operations Assistant (SOP + O&M)",
+            "SOR Validator (SOR only)",
+            "Question History",
+            "Operational Manual (View Only)"
+            
+        ],
+        key="nav_radio_app"
+    )
 
-else:
+    # 🔓 Logout button always visible in sidebar
+    st.sidebar.markdown("---")
+    if st.sidebar.button("🚪 Logout", key="logout_sidebar"):
+        st.session_state.clear()
+        st.rerun()
 
-    with st.sidebar:
-
-        st.title("🏢 Smart Building AI")
-
-        page = st.radio(
-            "Navigation",
-            [
-                "Home",
-                "Operations Assistant",
-                "SOR Validator",
-                "Question History",
-                "About Us",
-                "Methodology"
-            ]
-        )
-
-        st.write(
-            f"👤 User: {st.session_state.username}"
-        )
-
-        st.write(
-            f"🔑 Role: {st.session_state.role}"
-        )
-
-        st.markdown("---")
-
-        st.metric(
-            "📂 Documents",
-            len(
-                st.session_state.get(
-                    "uploaded_documents",
-                    []
-                )
-            )
-        )
-
-        st.metric(
-            "📝 Questions",
-            len(
-                st.session_state.get(
-                    "question_history",
-                    []
-                )
-            )
-        )
-
-        st.markdown("---")
-
-        if st.button("🚪 Logout"):
-
-            st.session_state.logged_in = False
-            st.session_state.username = ""
-            st.session_state.role = ""
-
-            st.rerun()
-        
-    st.title("🏢 AI Smart Building Assistant")
-
+    # Routing
     if page == "Home":
-        exec(open("views/home.py").read())
-
-    elif page == "Operations Assistant":
-        exec(open("views/operations.py").read())
-
-    elif page == "SOR Validator":
-        exec(open("views/SOR_validator.py").read())
-
-    elif page == "Question History":
-        exec(open("views/question_history.py").read())
-
+        show_home()
     elif page == "About Us":
-        exec(open("views/About Us.py").read())
-
+            show_about()
     elif page == "Methodology":
-        exec(open("views/methodology.py").read())
-    
+        show_methodology()
+    elif page == "Upload Document (Admin)":
+        show_upload_document()
+    elif page == "Operations Assistant (SOP + O&M)":
+        show_operations()
+    elif page == "SOR Validator (SOR only)":
+        show_sor_validator()
+    elif page == "Question History":
+        show_history()
+    elif page == "Operational Manual (View Only)":
+        show_manual()
+   
+
+
+if __name__ == "__main__":
+    main()

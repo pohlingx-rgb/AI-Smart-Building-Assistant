@@ -1,38 +1,30 @@
 import streamlit as st
-
+import logging
+from datetime import datetime
 from modules.disclaimer import show_disclaimer
 
-st.title("Methodology")
+# Configure audit logging
+logging.basicConfig(filename="audit.log", level=logging.INFO)
 
-st.markdown("""
-## RAG Workflow
+def log_event(event):
+    logging.info(f"{datetime.now()} - {event}")
 
-User Uploads Documents
-↓
-Document Loader
-↓
-Text Chunking
-↓
-Embeddings
-↓
-FAISS Vector Store
-↓
-Retriever
-↓
-LLM
-↓
-Answer + Source References
+def show_methodology():
+    st.title("📊 Methodology")
 
-### Steps
+    st.write("""
+    The assistant uses a Retrieval-Augmented Generation (RAG) pipeline:
+    - Documents (SOP, O&M, SOR) are uploaded and stored.
+    - A vector store indexes the content for semantic search.
+    - Queries are matched against relevant document chunks.
+    - An LLM generates answers using retrieved context.
+    """)
 
-1. Document Upload
-2. Text Extraction
-3. Chunking
-4. Embedding Generation
-5. FAISS Storage
-6. Retrieval
-7. LLM Response Generation
-8. Source Citation
-""")
+    st.write("""
+    This approach ensures responses are grounded in uploaded materials,
+    while still leveraging AI for natural language understanding.
+    """)
 
-show_disclaimer()
+    log_event(f"{st.session_state.username} viewed Methodology page.")
+
+    show_disclaimer()

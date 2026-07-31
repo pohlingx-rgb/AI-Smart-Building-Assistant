@@ -1,3 +1,5 @@
-from auth.login import login
+# auth package initializer
+# Keep this file minimal to avoid circular imports
 
-__all__ = ["login"]
+# If you want to expose login functionality at the package level:
+from .login import show_login

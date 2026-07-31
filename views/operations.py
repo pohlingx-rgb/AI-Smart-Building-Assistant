@@ -1,197 +1,58 @@
 import streamlit as st
-from datetime import datetime
-import pandas as pd
+from modules.rag_pipeline import generate_answer
+import datetime
+from modules.history_utils import append_history
+
+def run_operations_query(user_query):
+    """Retrieve relevant operations documents and generate an answer."""
+    vector_store = st.session_state.get("vector_store_ops")
+    if not vector_store:
+        return "No SOP or O&M documents indexed yet. Please upload first."
+
+    results = vector_store.similarity_search(user_query, k=3)
+    answer = generate_answer(user_query, results)
+    sources = [doc.metadata.get("source", "Unknown") for doc in results]
+    if sources:
+        answer += "\n\n📂 Sources: " + ", ".join(sources)
+    return answer
 
 
-from modules.disclaimer import show_disclaimer
+if "question_history" not in st.session_state:
+    st.session_state.question_history = []
 
-from modules.document_loader import (
-    read_pdf,
-    read_docx,
-    read_txt
-)
+def show_operations():
+    st.header("⚙️ Operations Assistant")
 
-from modules.text_splitter import split_text
+    if "ops_chat" not in st.session_state:
+        st.session_state.ops_chat = []
 
-from modules.rag_pipeline import generate_answer, generate_sor_answer
+    # Display chat history
+    for msg in st.session_state.ops_chat:
+        st.chat_message(msg["role"]).write(msg["content"])
 
-from vectorstore.faiss_manager import create_vector_store
+    # Chat input
+    user_query = st.chat_input("Ask about SOP or O&M...")
+    if user_query:
+        st.session_state.ops_chat.append({"role": "user", "content": user_query})
 
+        # Retrieve relevant chunks from vector store
+        vector_store = st.session_state.get("vector_store_ops")
+        if vector_store:
+            results = vector_store.similarity_search(user_query, k=3)
+            answer = generate_answer(user_query, results)
 
-st.title("📘 Operations Knowledge Assistant")
+            # Build source reference list
+            sources = [doc.metadata.get("source", "Unknown") for doc in results]
+            if sources:
+                answer += "\n\n📂 Sources: " + ", ".join(sources)
+        else:
+            answer = "No SOP or O&M documents indexed yet. Please upload first."
 
-if "uploaded_documents" not in st.session_state:
-    st.session_state["uploaded_documents"] = []
-
-uploaded_file = None
-
-if st.session_state.role == "Admin":
-
-    uploaded_file = st.file_uploader(
-        "Upload FM Document",
-        type=["pdf", "docx", "txt"]
-    )
-
-else:
-
-    st.info(
-        "Document upload is restricted to Admin users."
-    )
-
-if uploaded_file:
-
-    file_name = uploaded_file.name
-
-    if file_name.endswith(".pdf"):
-        text = read_pdf(uploaded_file)
-
-    elif file_name.endswith(".docx"):
-        text = read_docx(uploaded_file)
-
-    elif file_name.endswith(".txt"):
-        text = read_txt(uploaded_file)
-
-    st.success("Document Uploaded Successfully")
-
-    document_info = {
-    "name": file_name,
-    "upload_time": datetime.now().strftime(
-        "%Y-%m-%d %H:%M:%S"
-    ),
-    "size_kb": round(
-        uploaded_file.size / 1024,
-        2
-    )
-}
-    existing_docs = [
-        doc["name"]
-        for doc in st.session_state.get("uploaded_documents", [])
-    ]
-
-    if file_name not in existing_docs:
-        st.session_state["uploaded_documents"].append(
-            document_info
-        )
-
-    st.subheader("Document Name")
-    st.write(file_name)
-
-    st.subheader("Extracted Text Preview")
-    st.text(text[:2000])
-
-    chunks = split_text(text)
-
-    st.session_state["document_text"] = text
-    st.session_state["chunks"] = chunks
-
-    st.subheader("Generated Chunks")
-    st.write(f"Total Chunks: {len(chunks)}")
-
-    vector_store = create_vector_store(chunks)
-
-    st.session_state["vector_store"] = vector_store
-
-    st.success("✅ FAISS Vector Store Created")
-
-# Clear Chat Button
-
-if st.button("🗑 Clear Chat"):
-
-    st.session_state.operations_chat = []
-
-    st.rerun()
-
-
-# Initialize Chat Memory
-
-if "operations_chat" not in st.session_state:
-
-    st.session_state.operations_chat = []
-
-
-# Display Previous Messages
-
-for message in st.session_state.operations_chat:
-
-    with st.chat_message(
-        message["role"]
-    ):
-
-        st.write(
-            message["content"]
-        )
-
-
-# Ask Questions
-
-if "vector_store" in st.session_state:
-
-    vector_store = st.session_state["vector_store"]
-
-    question = st.chat_input(
-        "Ask a question about the uploaded document"
-    )
-
-    if question:
-
-        st.session_state.operations_chat.append(
-            {
-                "role": "user",
-                "content": question
-            }
-        )
-
-        results = vector_store.similarity_search(
-            question,
-            k=3
-        )
-
-        answer = generate_answer(
-            question,
-            results
-        )
-
-        st.session_state.operations_chat.append(
-            {
-                "role": "assistant",
-                "content": answer
-            }
-        )
-
-        history_item = {
+        st.session_state.ops_chat.append({"role": "assistant", "content": answer})
+        st.session_state.question_history.append({
             "module": "Operations Assistant",
-            "question": question,
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "question": user_query,
             "answer": answer,
-            "timestamp": datetime.now().strftime(
-                "%Y-%m-%d %H:%M:%S"
-            )
-        }
-
-        if (
-            not st.session_state.question_history
-            or st.session_state.question_history[-1]["question"] != question
-        ):
-
-            st.session_state.question_history.append(
-                history_item
-            )
-
-        st.subheader("Source References")
-
-        for idx, doc in enumerate(results):
-
-            st.write(
-                f"Source {idx + 1}"
-            )
-
-            st.code(
-                doc.page_content
-            )
-
-else:
-
-    st.warning(
-        "Please upload a document first."
-    )
-
-show_disclaimer()
+        })
+        st.chat_message("assistant").write(answer)

@@ -1,20 +1,21 @@
 import os
-
 from dotenv import load_dotenv
-from openai import OpenAI
 
+# Load environment variables first
 load_dotenv()
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+# Debug print AFTER loading
+print("DEBUG: OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY"))
+
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 def generate_answer(question, docs):
-
-    context = "\n\n".join(
-        [doc.page_content for doc in docs]
-    )
+    # Build context and collect sources
+    context = "\n\n".join([doc.page_content for doc in docs])
+    sources = [doc.metadata.get("source", "Unknown") for doc in docs]
 
     prompt = f"""
 You are a Facilities Management AI Assistant.
@@ -26,24 +27,21 @@ Context:
 
 Question:
 {question}
+
+At the end of your answer, list the sources used:
+Sources: {", ".join(sources)}
 """
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+        messages=[{"role": "user", "content": prompt}]
     )
-
     return response.choices[0].message.content
-def generate_sor_answer(question, docs):
 
-    context = "\n\n".join(
-        [doc.page_content for doc in docs]
-    )
+def generate_sor_answer(question, docs):
+    # Build context and collect sources
+    context = "\n\n".join([doc.page_content for doc in docs])
+    sources = [doc.metadata.get("source", "Unknown") for doc in docs]
 
     prompt = f"""
 You are a Facilities Management Schedule of Rates (SOR) Validator.
@@ -51,14 +49,12 @@ You are a Facilities Management Schedule of Rates (SOR) Validator.
 Using ONLY the provided context:
 
 Determine:
-
 1. Coverage Status (Covered / Not Covered / Unclear)
 2. Relevant Clause
 3. Supporting Evidence
 4. Source Reference
 
 If information is unavailable, state:
-
 'Information not found in uploaded SOR documents.'
 
 Context:
@@ -66,16 +62,12 @@ Context:
 
 Question:
 {question}
+
+Sources: {", ".join(sources)}
 """
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+        messages=[{"role": "user", "content": prompt}]
     )
-
     return response.choices[0].message.content

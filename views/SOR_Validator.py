@@ -1,76 +1,47 @@
-import streamlit as st
-from datetime import datetime
-
 from modules.rag_pipeline import generate_sor_answer
+import streamlit as st
 
-from modules.disclaimer import show_disclaimer
-
-st.title("🔍 SOR Validator")
-
-st.write("""
-Ask questions about Schedule of Rates (SOR)
-contracts and coverage.
-""")
+import datetime
 
 if "question_history" not in st.session_state:
     st.session_state.question_history = []
 
-question = st.text_input(
-    "Enter SOR validation question"
-)
+def show_sor_validator():
+    st.title("🔍 SOR Validator")
 
-vector_store = st.session_state.get(
-    "vector_store"
-)
+    if "sor_chat" not in st.session_state:
+        st.session_state.sor_chat = []
 
-if not vector_store:
+    # Display chat history
+    for msg in st.session_state.sor_chat:
+        st.chat_message(msg["role"]).write(msg["content"])
 
-    st.warning(
-        "Please upload a document first."
-    )
+    # Chat input
+    user_query = st.chat_input("Ask about SOR contracts...")
+    if user_query:
+        st.session_state.sor_chat.append({"role": "user", "content": user_query})
 
-elif question:
+        # Retrieve relevant chunks from vector store
+        vector_store = st.session_state.get("vector_store_sor")
+        if vector_store:
+            results = vector_store.similarity_search(user_query, k=3)
+            answer = generate_sor_answer(user_query, results)
 
-    results = vector_store.similarity_search(
-        question,
-        k=3
-    )
+            # Build source reference list
+            sources = [doc.metadata.get("source", "Unknown") for doc in results]
+            if sources:
+                answer += "\n\n📂 Sources: " + ", ".join(sources)
+        else:
+            answer = "No SOR documents indexed yet. Please upload first."
 
-    answer = generate_sor_answer(
-        question,
-        results
-    )
+        st.session_state.sor_chat.append({"role": "assistant", "content": answer})
+        st.session_state.question_history.append({
+            "module": "SOR Validator",
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "question": user_query,
+            "answer": answer
+        })
+        st.chat_message("assistant").write(answer)
 
-    history_item = {
-        "module": "SOR Validator",
-        "question": question,
-        "answer": answer,
-        "timestamp": datetime.now().strftime(
-            "%Y-%m-%d %H:%M:%S"
-        )
-    }
 
-    if (
-        not st.session_state.question_history
-        or
-        st.session_state.question_history[-1]["question"] != question
-    ):
-        st.session_state.question_history.append(
-            history_item
-        )
 
-    st.subheader("SOR Assessment")
-
-    st.write(answer)
-
-    st.subheader("Supporting Sources")
-
-    for idx, doc in enumerate(results):
-
-        st.write(
-            f"Source {idx + 1}"
-        )
-
-        st.code(doc.page_content)
-
-show_disclaimer()
