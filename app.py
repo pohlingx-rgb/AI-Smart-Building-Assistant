@@ -1,16 +1,18 @@
 import streamlit as st
-from auth.login import show_login   # adjust path if needed
-from views.home import show_home
+
+from auth.login import show_login
+from views.Methodology import show_methodology
+from views.Question_History import show_question_history
+from views.SOR_Validator import show_sor_validator
 from views.about_us import show_about
-from views.methodology import show_methodology   # ✅ lowercase file name for consistency
+from views.home import show_home
+from views.operations import show_operations_assistant
 from views.upload_document import show_upload_document
-from views.operations import show_operations_assistant   # ✅ aligned with operations.py
-from views.sor_validator import show_sor_validator       # ✅ lowercase file name for consistency
-from views.question_history import show_question_history          # ✅ lowercase file name for consistency
 
 # --- Initialize session state keys ---
 if "question_history" not in st.session_state:
     st.session_state.question_history = []
+
 
 def main():
     # --- Initialize session state keys ---
@@ -39,7 +41,7 @@ def main():
         "Methodology",
         "Operations Assistant (SOP + O&M)",
         "SOR Validator (SOR only)",
-        "Question History"
+        "Question History",
     ]
 
     # Only Admins see Upload Document
@@ -65,7 +67,7 @@ def main():
                     data=f,
                     file_name="audit.log",
                     mime="text/plain",
-                    key="download_audit_log"
+                    key="download_audit_log",
                 )
         except FileNotFoundError:
             st.sidebar.warning("⚠️ No audit log found yet.")
@@ -84,11 +86,12 @@ def main():
     elif page == "Upload Document":
         show_upload_document()
     elif page == "Operations Assistant (SOP + O&M)":
-        show_operations_assistant()   # ✅ no argument needed, loads index internally
+        show_operations_assistant()
     elif page == "SOR Validator (SOR only)":
-        show_sor_validator()          # ✅ no argument needed, loads index internally
+        show_sor_validator()
     elif page == "Question History":
         show_question_history()
+
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,6 @@ from modules.vector_store import load_vector_store
 def show_operations_assistant():
     st.title("📑 Operations Assistant")
 
-    # --- Always try to load combined SOP+O&M index from disk ---
     if "vector_store_ops" not in st.session_state or st.session_state.vector_store_ops is None:
         st.session_state.vector_store_ops = load_vector_store("combined_ops_index")
 
@@ -24,7 +23,6 @@ def show_operations_assistant():
     st.write("Upload SOP and O&M documents on the **Upload Document** page. Then query them here.")
     st.markdown("---")
 
-    # --- Toggle: Show sources only ---
     show_sources_only = st.checkbox("Show sources only")
 
     if show_sources_only:
@@ -48,7 +46,7 @@ def show_operations_assistant():
             session_key="ops_chat",
             label="Ask a question about SOP/O&M documents",
             input_key="ops_chat_input",
-            role="Operations Assistant"
+            role="Operations Assistant",
         )
 
     show_disclaimer()
