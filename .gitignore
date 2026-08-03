@@ -1,17 +1,33 @@
-# Environment variables
-.env
-
-# Python virtual environments
-venv/
-.venv/
-
-# Streamlit cache
-.streamlit/
-
-# Python cache
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
 
-# macOS system files
+# --- Virtual Environment ---
+.venv/
+env/
+venv/
+
+# --- Streamlit & Cache ---
+.streamlit/
+.cache/
+
+# --- Environment Variables ---
+.env
+.env.*
+
+# --- Data & Indexes ---
+data/
+*.faiss
+*.pkl
+
+# --- OS / Editor Files ---
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
