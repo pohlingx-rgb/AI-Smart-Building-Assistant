@@ -1,20 +1,15 @@
+import datetime
 import os
 import re
-import datetime
+
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# Load environment variables first
 load_dotenv()
-
-# Debug print AFTER loading
-print("DEBUG: OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY"))
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# -------------------------------
-# Security Utilities
-# -------------------------------
+
 def sanitize_input(user_input: str) -> str:
     """Remove or redact suspicious instructions before sending to LLM."""
     suspicious_patterns = [
@@ -37,20 +32,15 @@ def sanitize_input(user_input: str) -> str:
 def log_attempt(original_input: str, pattern: str):
     """Log suspicious prompt injection attempts to audit.log"""
     timestamp = datetime.datetime.now().isoformat()
-    with open("audit.log", "a") as f:
+    with open("audit.log", "a", encoding="utf-8") as f:
         f.write(f"[{timestamp}] Suspicious input detected: '{original_input}' (matched: {pattern})\n")
 
 
-# -------------------------------
-# Answer Generation
-# -------------------------------
 def generate_answer(question, docs):
     if not docs:
         return "No documents uploaded. Please upload a file before asking questions."
 
     safe_question = sanitize_input(question)
-
-    # Build context and collect sources
     context = "\n\n".join([doc.page_content for doc in docs])
     sources = [doc.metadata.get("source", "Unknown") for doc in docs]
 
@@ -74,15 +64,16 @@ Sources: {", ".join(sources)}
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     return response.choices[0].message.content
 
 
 def generate_sor_answer(question, docs):
-    safe_question = sanitize_input(question)
+    if not docs:
+        return "No SOR documents uploaded. Please upload a file before validation."
 
-    # Build context and collect sources
+    safe_question = sanitize_input(question)
     context = "\n\n".join([doc.page_content for doc in docs])
     sources = [doc.metadata.get("source", "Unknown") for doc in docs]
 
@@ -114,6 +105,6 @@ Sources: {", ".join(sources)}
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
-        messages=[{"role": "user", "content": prompt}]
+        messages=[{"role": "user", "content": prompt}],
     )
     return response.choices[0].message.content

@@ -32,11 +32,11 @@ def extract_text_with_pages(file_path):
             if text.strip():
                 pages.append({"text": text, "page": i + 1})
         return pages
-    elif file_path.endswith(".docx"):
+    if file_path.endswith(".docx"):
         doc = docx.Document(file_path)
         text = "\n".join([para.text for para in doc.paragraphs])
         return [{"text": text, "page": None}]
-    elif file_path.endswith(".txt"):
+    if file_path.endswith(".txt"):
         with open(file_path, "r", encoding="utf-8") as f:
             text = f.read()
         return [{"text": text, "page": None}]
@@ -102,9 +102,7 @@ def build_vector_store(folders, index_name="combined_ops_index"):
                     st.warning(f"⚠️ Skipped duplicate file content: {file_name}")
                     continue
                 seen_hashes.add(content_hash)
-                all_chunks.extend(
-                    chunk_document(text, file_name, file_path, page=page.get("page"))
-                )
+                all_chunks.extend(chunk_document(text, file_name, file_path, page=page.get("page")))
                 st.success(f"✅ Indexed new file: {file_name}")
 
     if not all_chunks:
@@ -160,18 +158,51 @@ def update_vector_store(file_path, index_name="combined_ops_index"):
             embeddings,
             allow_dangerous_deserialization=True,
         )
-        existing_sources = [
-            doc.metadata.get("source")
-            for doc in vector_store.docstore._dict.values()
-        ]
+        existing_sources = [doc.metadata.get("source") for doc in vector_store.docstore._dict.values()]
         if os.path.basename(file_path) in existing_sources:
             st.warning(f"⚠️ File already indexed, skipping: {os.path.basename(file_path)}")
             return vector_store
         vector_store.add_documents(chunks)
-        st.success(f"✅ Indexed new file: {os.path.basename(file_path)}")
-    else:
-        vector_store = FAISS.from_documents(chunks, embeddings)
-        st.success(f"✅ Indexed new file: {os.path.basename(file_path)}")
+        vector_store.save_local(save_path)
+        st.success(f"✅ Indexed new file into {index_name}: {os.path.basename(file_path)}")
+        return vector_store
 
+    vector_store = FAISS.from_documents(chunks, embeddings)
     vector_store.save_local(save_path)
+    st.success(f"✅ Created new index {index_name} with file: {os.path.basename(file_path)}")
+    return vector_store
+    vector_store.save_local(save_path)
+    return vector_store
+
+# --- Build index from folder(s) ---
+def build_vector_store(folders, index_name):
+    """
+    Rebuild FAISS index from all files in one or more folders.
+    Args:
+        folders: str or list of folder paths
+        index_name: name of the FAISS index to save
+    """
+    if isinstance(folders, str):
+        folders = [folders]
+
+    all_chunks = []
+    for folder in folders:
+        if not os.path.exists(folder):
+            continue
+        for file in os.listdir(folder):
+            file_path = os.path.join(folder, file)
+            content = extract_text(file_path)
+            if not content.strip():
+                continue
+            chunks = chunk_document(content, file, file_path)
+            all_chunks.extend(chunks)
+
+    if not all_chunks:
+        st.warning(f"⚠️ No valid documents found in {folders}")
+        return None
+
+    save_path = os.path.join("data", index_name)
+    vector_store = FAISS.from_documents(all_chunks, embeddings)
+    vector_store.save_local(save_path)
+    st.success(f"✅ Rebuilt index {index_name} with {len(all_chunks)} chunks")
     return vector_store

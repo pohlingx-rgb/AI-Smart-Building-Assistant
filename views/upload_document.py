@@ -3,7 +3,7 @@ import os
 import streamlit as st
 
 from auth.login import log_event
-from modules.vector_store import build_vector_store, update_vector_store
+from modules.vector_store import build_vector_store
 
 DATA_DIR = "data"
 SOR_FOLDER = os.path.join(DATA_DIR, "SOR")

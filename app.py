@@ -1,4 +1,7 @@
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from auth.login import show_login
 from views.Methodology import show_methodology
@@ -9,32 +12,26 @@ from views.home import show_home
 from views.operations import show_operations_assistant
 from views.upload_document import show_upload_document
 
-# --- Initialize session state keys ---
+
 if "question_history" not in st.session_state:
     st.session_state.question_history = []
 
 
 def main():
-    # --- Initialize session state keys ---
     if "current_page" not in st.session_state:
         st.session_state["current_page"] = "Home"
     if "question_history" not in st.session_state:
         st.session_state.question_history = []
 
-    # --- Show login first ---
     if "username" not in st.session_state:
         show_login()
         return
 
-    # Sidebar navigation
     st.sidebar.title("Navigation")
-
-    # Role badge
     st.sidebar.markdown(
         f"**Role:** {'🔑 Admin' if st.session_state.get('role') == 'Admin' else '👤 User'}"
     )
 
-    # Build navigation options dynamically
     nav_options = [
         "Home",
         "About Us",
@@ -44,20 +41,17 @@ def main():
         "Question History",
     ]
 
-    # Only Admins see Upload Document
     if st.session_state.get("role") == "Admin":
         nav_options.insert(3, "Upload Document")
 
     selected_page = st.sidebar.radio("Go to:", nav_options, key="nav_radio_app")
     st.session_state["current_page"] = selected_page
 
-    # Logout button
     st.sidebar.markdown("---")
     if st.sidebar.button("🚪 Logout", key="logout_sidebar"):
         st.session_state.clear()
         st.rerun()
 
-    # Admin-only tools
     if st.session_state.get("role") == "Admin":
         st.sidebar.markdown("### Admin Tools")
         try:
@@ -74,7 +68,6 @@ def main():
 
     st.title("🏢 AI Smart Building Assistant")
 
-    # Routing
     page = st.session_state["current_page"]
 
     if page == "Home":

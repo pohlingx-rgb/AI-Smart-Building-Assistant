@@ -21,7 +21,7 @@ def show_home():
 
     st.markdown(
         """
-        👋Welcome to the **AI Smart Building Assistant** — your tool for streamlined knowledge
+        👋 Welcome to the **AI Smart Building Assistant** — your tool for streamlined knowledge
         retrieval and contract compliance validation in Facilities Management.
 
         ## 📌 What You Can Do Here
