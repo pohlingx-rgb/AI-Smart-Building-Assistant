@@ -1,4 +1,33 @@
-venv/
-.env
+# --- Python ---
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual Environment ---
+.venv/
+env/
+venv/
+
+# --- Streamlit & Cache ---
+.streamlit/
+.cache/
+
+# --- Environment Variables ---
+.env
+.env.*
+
+# --- Data & Indexes ---
+data/
+*.faiss
+*.pkl
+
+# --- OS / Editor Files ---
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
