@@ -1,65 +1,87 @@
 import streamlit as st
-from auth.login import show_login
+from auth.login import show_login   # adjust path if needed
+
 from views.home import show_home
 from views.about_us import show_about
 from views.methodology import show_methodology
-from views.upload_document import show_upload_document
+from views.upload_document import show_upload_document   # unified upload + view page
 from views.operations import show_operations
 from views.sor_validator import show_sor_validator
 from views.question_history import show_history
-from views.manual import show_manual
-
-from modules.vector_store import load_vector_store
 
 # --- Initialize session state keys ---
 if "question_history" not in st.session_state:
     st.session_state.question_history = []
 
-if "vector_store_ops" not in st.session_state:
-    st.session_state.vector_store_ops = load_vector_store("combined_ops_index")
-
-if "vector_store_sor" not in st.session_state:
-    st.session_state.vector_store_sor = load_vector_store("SOR_index")
-
 # --- Main app ---
 def main():
-    # Check login state
+    # --- Initialize session state keys ---
+    if "current_page" not in st.session_state:
+        st.session_state["current_page"] = "Home"
+    if "question_history" not in st.session_state:
+        st.session_state.question_history = []
+
+    # --- Show login first ---
     if "username" not in st.session_state:
         show_login()
         return
 
     # Sidebar navigation
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio(
-        "Go to:",
-        [
-            "Home",
-            "About Us",
-            "Methodology",
-            "Upload Document (Admin)",
-            "Operations Assistant (SOP + O&M)",
-            "SOR Validator (SOR only)",
-            "Question History",
-            "Operational Manual (View Only)"
-            
-        ],
-        key="nav_radio_app"
+
+    # Role badge
+    st.sidebar.markdown(
+        f"**Role:** {'🔑 Admin' if st.session_state.get('role') == 'Admin' else '👤 User'}"
     )
 
-    # 🔓 Logout button always visible in sidebar
+    # Build navigation options dynamically
+    nav_options = [
+        "Home",
+        "About Us",
+        "Methodology",
+        "Operations Assistant (SOP + O&M)",
+        "SOR Validator (SOR only)",
+        "Question History"
+    ]
+
+    # Only Admins see Upload Document
+    if st.session_state.get("role") == "Admin":
+        nav_options.insert(3, "Upload Document")
+
+    selected_page = st.sidebar.radio("Go to:", nav_options, key="nav_radio_app")
+    st.session_state["current_page"] = selected_page
+
+        # Logout button
     st.sidebar.markdown("---")
     if st.sidebar.button("🚪 Logout", key="logout_sidebar"):
         st.session_state.clear()
         st.rerun()
 
+    # Admin-only tools
+    if st.session_state.get("role") == "Admin":
+        st.sidebar.markdown("### Admin Tools")
+        try:
+            with open("audit.log", "rb") as f:
+                st.sidebar.download_button(
+                    label="📥 Download Audit Log",
+                    data=f,
+                    file_name="audit.log",
+                    mime="text/plain",
+                    key="download_audit_log"
+                )
+        except FileNotFoundError:
+            st.sidebar.warning("⚠️ No audit log found yet.")
+
     # Routing
+    page = st.session_state["current_page"]
+
     if page == "Home":
         show_home()
     elif page == "About Us":
-            show_about()
+        show_about()
     elif page == "Methodology":
         show_methodology()
-    elif page == "Upload Document (Admin)":
+    elif page == "Upload Document":
         show_upload_document()
     elif page == "Operations Assistant (SOP + O&M)":
         show_operations()
@@ -67,9 +89,6 @@ def main():
         show_sor_validator()
     elif page == "Question History":
         show_history()
-    elif page == "Operational Manual (View Only)":
-        show_manual()
-   
 
 
 if __name__ == "__main__":

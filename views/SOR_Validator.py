@@ -1,47 +1,31 @@
-from modules.rag_pipeline import generate_sor_answer
 import streamlit as st
-
-import datetime
-
-if "question_history" not in st.session_state:
-    st.session_state.question_history = []
+from modules.vector_store import load_vector_store
+from modules.chatbot import show_chatbot
 
 def show_sor_validator():
-    st.title("🔍 SOR Validator")
+    st.title("📑 SOR Validator")
 
-    if "sor_chat" not in st.session_state:
-        st.session_state.sor_chat = []
+    # --- Status indicator ---
+    if "vector_store_sor" not in st.session_state:
+        st.session_state.vector_store_sor = load_vector_store("SOR_index")
 
-    # Display chat history
-    for msg in st.session_state.sor_chat:
-        st.chat_message(msg["role"]).write(msg["content"])
+    if st.session_state.vector_store_sor:
+        st.success("✅ SOR index loaded and ready")
+    else:
+        st.warning("⚠️ No SOR index found. Please upload documents first.")
 
-    # Chat input
-    user_query = st.chat_input("Ask about SOR contracts...")
-    if user_query:
-        st.session_state.sor_chat.append({"role": "user", "content": user_query})
+    st.write(
+        "Upload SOR documents on the **Upload Document** page. "
+        "Then query them here using the chatbot below."
+    )
 
-        # Retrieve relevant chunks from vector store
-        vector_store = st.session_state.get("vector_store_sor")
-        if vector_store:
-            results = vector_store.similarity_search(user_query, k=3)
-            answer = generate_sor_answer(user_query, results)
+    st.markdown("---")
 
-            # Build source reference list
-            sources = [doc.metadata.get("source", "Unknown") for doc in results]
-            if sources:
-                answer += "\n\n📂 Sources: " + ", ".join(sources)
-        else:
-            answer = "No SOR documents indexed yet. Please upload first."
-
-        st.session_state.sor_chat.append({"role": "assistant", "content": answer})
-        st.session_state.question_history.append({
-            "module": "SOR Validator",
-            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "question": user_query,
-            "answer": answer
-        })
-        st.chat_message("assistant").write(answer)
-
-
-
+    # --- Chatbot with summarization ---
+    show_chatbot(
+        vector_store=st.session_state.vector_store_sor,
+        session_key="sor_chat",
+        label="Ask a question about SOR documents",
+        input_key="sor_chat_input",
+        role="SOR validator"   # ✅ role context for summarization
+    )

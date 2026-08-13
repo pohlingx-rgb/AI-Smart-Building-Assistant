@@ -162,3 +162,1302 @@ INFO:root:2026-07-31 20:42:26.001614 - admin logged in as Admin
 INFO:root:2026-07-31 20:42:26.070763 - admin viewed Home page as Admin.
 INFO:root:2026-07-31 20:42:30.522059 - admin viewed About Us page.
 INFO:root:2026-07-31 20:42:31.505303 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-07-31 21:08:28.970446 - admin logged in as Admin
+INFO:root:2026-07-31 21:08:29.038988 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:08:34.207113 - admin viewed About Us page.
+INFO:root:2026-07-31 21:08:35.106606 - admin viewed Methodology page.
+INFO:root:2026-07-31 21:08:52.132700 - admin viewed Methodology page.
+INFO:root:2026-07-31 21:11:58.994437 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:12:03.426624 - admin viewed About Us page.
+INFO:root:2026-07-31 21:12:04.219152 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-07-31 21:17:37.435497 - admin logged in as Admin
+INFO:root:2026-07-31 21:17:37.512669 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:17:42.625205 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:17:44.553532 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:17:45.087327 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:17:45.654150 - admin viewed Home page as Admin.
+INFO:root:2026-07-31 21:17:45.853357 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 09:52:26.780767 - admin logged in as Admin
+INFO:root:2026-08-01 09:52:26.881174 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 09:52:32.024997 - admin viewed About Us page.
+INFO:root:2026-08-01 09:52:34.883519 - admin viewed Methodology page.
+INFO:root:2026-08-01 09:58:51.072657 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 09:58:53.859604 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 09:58:56.356504 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 09:59:00.525373 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:04.034599 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:06.446135 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 09:59:23.110774 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:31.737246 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:32.985659 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:33.411757 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:33.592795 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:33.795339 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:33.994015 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:37.461398 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:40.314652 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 09:59:41.111350 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 10:01:00.479571 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 10:01:08.810571 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 10:01:09.832134 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 10:01:10.930789 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 10:01:11.110085 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 10:01:14.083507 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 10:03:01.214499 - admin logged in as Admin
+INFO:root:2026-08-01 10:03:01.289323 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:03:06.514290 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:03:08.001787 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:03:08.889223 - admin viewed About Us page.
+INFO:root:2026-08-01 10:03:09.914963 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 10:08:31.867530 - admin logged in as Admin
+INFO:root:2026-08-01 10:08:31.932393 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:08:34.616383 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:08:35.913922 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:08:37.019784 - admin viewed About Us page.
+INFO:root:2026-08-01 10:08:37.872973 - admin viewed Methodology page.
+INFO:root:2026-08-01 10:08:54.111156 - user logged in as User
+INFO:root:2026-08-01 10:08:54.170999 - user viewed Home page as User.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 10:53:32.604503 - admin logged in as Admin
+INFO:root:2026-08-01 10:53:32.714400 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:53:35.419821 - admin viewed About Us page.
+INFO:root:2026-08-01 10:53:36.273460 - admin viewed Methodology page.
+INFO:root:2026-08-01 10:57:33.144541 - admin logged in as Admin
+INFO:root:2026-08-01 10:57:33.234339 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:57:37.988642 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:57:39.077849 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 10:57:46.278204 - admin viewed Methodology page.
+INFO:root:2026-08-01 10:57:46.756288 - admin viewed About Us page.
+INFO:root:2026-08-01 10:57:47.929566 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:00:15.203936 - admin logged in as Admin
+INFO:root:2026-08-01 11:00:15.288777 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:00:18.036709 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:00:19.237733 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:00:20.066040 - admin viewed About Us page.
+INFO:root:2026-08-01 11:00:20.800456 - admin viewed Methodology page.
+INFO:root:2026-08-01 11:03:31.579136 - admin logged in as Admin
+INFO:root:2026-08-01 11:03:31.669550 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:03:36.336900 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:03:37.358040 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:04:28.239218 - admin logged in as Admin
+INFO:root:2026-08-01 11:04:28.330980 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:04:30.995818 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:04:31.815062 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:04:32.103131 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:04:32.311542 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:04:32.510350 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:00.830302 - admin logged in as Admin
+INFO:root:2026-08-01 11:06:00.907203 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:04.974824 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:05.784600 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:05.978661 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:06.152147 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:06.327795 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:06.501061 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:06.687840 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:07.548739 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:07.717005 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:07.890252 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:08.109588 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:06:09.837485 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:08:11.864680 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:08:32.231590 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:08:34.206627 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:09:02.019392 - admin logged in as Admin
+INFO:root:2026-08-01 11:09:02.110587 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:38.394380 - admin logged in as Admin
+INFO:root:2026-08-01 11:10:38.485112 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:40.742376 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:41.741246 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:41.989954 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:42.190224 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:10:58.166852 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:01.805213 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:02.278899 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:02.444736 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:02.613100 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:04.884562 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:05.051933 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:05.229332 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:05.404232 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:05.580388 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:05.755781 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:21.875762 - admin logged in as Admin
+INFO:root:2026-08-01 11:11:21.948520 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:25.452963 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:25.772358 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:25.944500 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:26.117452 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:26.298399 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:26.476458 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:26.654456 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:26.835601 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:27.021668 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:27.194216 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:27.362122 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:27.987228 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:28.160210 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:28.375886 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:11:28.858255 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:11:57.170576 - admin logged in as Admin
+INFO:root:2026-08-01 11:11:57.250544 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:00.970535 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:01.603515 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:01.760617 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:01.936721 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:02.112104 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:12:02.317303 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:48.114045 - admin logged in as Admin
+INFO:root:2026-08-01 11:13:48.204556 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:50.850103 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:51.711935 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:51.870352 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:52.068773 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:52.244466 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:53.450306 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:53.726610 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:13:53.902464 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:17:47.894898 - admin logged in as Admin
+INFO:root:2026-08-01 11:17:47.972803 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 11:18:00.319289 - admin logged in as Admin
+INFO:root:2026-08-01 11:18:00.392517 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:23:47.046351 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:27:32.386837 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:27:35.600874 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:27:55.157219 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:27:59.887676 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:01.192989 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:01.478891 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:01.668013 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:01.848554 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:02.223413 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:02.448858 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:02.658982 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:02.854949 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:03.405408 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:03.578647 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:03.757744 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:17.080174 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:28:19.030720 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 11:29:55.006780 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:30:37.115151 - Guest viewed Home page as Unknown.
+INFO:root:2026-08-01 11:30:42.032372 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 22:06:53.670781 - Guest viewed Home page as Unknown.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 22:15:08.402354 - admin logged in as Admin
+INFO:root:2026-08-01 22:15:08.471158 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:15:12.642419 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:15:13.470764 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:15:13.636169 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:15:13.790382 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:17:53.906464 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:18:05.434633 - admin logged in as Admin
+INFO:root:2026-08-01 22:18:05.501104 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:18:09.060133 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:18:10.103014 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:18:17.438728 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 22:21:20.354026 - admin logged in as Admin
+INFO:root:2026-08-01 22:21:20.423260 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:21:29.936476 - admin logged in as Admin
+INFO:root:2026-08-01 22:21:30.013138 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:21:41.443523 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:25:29.600879 - admin logged in as Admin
+INFO:root:2026-08-01 22:25:29.659307 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:25:44.252801 - admin logged in as Admin
+INFO:root:2026-08-01 22:25:44.325914 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 22:54:50.737391 - admin logged in as Admin
+INFO:root:2026-08-01 22:54:50.810609 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:54:59.772748 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:55:03.280660 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:55:05.257450 - admin viewed About Us page.
+INFO:root:2026-08-01 22:55:05.810629 - admin viewed Methodology page.
+INFO:root:2026-08-01 22:55:26.681306 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 22:58:32.067666 - admin logged in as Admin
+INFO:root:2026-08-01 22:58:32.139329 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:58:38.170927 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:59:16.731344 - admin viewed About Us page.
+INFO:root:2026-08-01 22:59:17.209958 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:59:20.907816 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:59:33.388527 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 22:59:41.689315 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:00:08.556617 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 23:05:24.732085 - admin logged in as Admin
+INFO:root:2026-08-01 23:05:24.783389 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:05:29.696190 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:05:34.873153 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:05:37.124330 - admin viewed About Us page.
+INFO:root:2026-08-01 23:05:38.405779 - admin viewed Methodology page.
+INFO:root:2026-08-01 23:05:41.259024 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 23:09:57.727184 - admin logged in as Admin
+INFO:root:2026-08-01 23:09:57.778810 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:10:02.844493 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:10:07.865994 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:10:15.545740 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 23:20:32.144425 - admin logged in as Admin
+INFO:root:2026-08-01 23:20:32.210852 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:20:42.044240 - admin logged in as Admin
+INFO:root:2026-08-01 23:20:42.099107 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:20:54.253292 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-01 23:25:12.989804 - admin logged in as Admin
+INFO:root:2026-08-01 23:25:13.040701 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:25:18.593479 - admin viewed About Us page.
+INFO:root:2026-08-01 23:25:19.485479 - admin viewed Methodology page.
+INFO:root:2026-08-01 23:25:35.923819 - admin viewed Home page as Admin.
+INFO:root:2026-08-01 23:25:40.220811 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 08:29:46.222369 - admin logged in as Admin
+INFO:root:2026-08-03 08:29:46.311865 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 08:29:51.125747 - admin viewed About Us page.
+INFO:root:2026-08-03 08:29:51.824498 - admin viewed Methodology page.
+INFO:root:2026-08-03 08:30:59.036863 - admin viewed About Us page.
+INFO:root:2026-08-03 08:30:59.940811 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 08:59:02.217757 - admin logged in as Admin
+INFO:root:2026-08-03 08:59:02.274630 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 08:59:04.752650 - admin viewed About Us page.
+INFO:root:2026-08-03 08:59:05.351138 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:03:31.152655 - admin logged in as Admin
+INFO:root:2026-08-03 09:03:31.207952 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:13:09.219064 - admin logged in as Admin
+INFO:root:2026-08-03 09:13:09.278439 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:13:13.937946 - admin viewed About Us page.
+INFO:root:2026-08-03 09:13:17.656665 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:16:19.969076 - admin logged in as Admin
+INFO:root:2026-08-03 09:16:20.030949 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:16:24.353405 - admin viewed About Us page.
+INFO:root:2026-08-03 09:16:26.942828 - admin viewed Methodology page.
+INFO:root:2026-08-03 09:29:52.593866 - admin logged in as Admin
+INFO:root:2026-08-03 09:29:52.672793 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:34:04.224997 - admin logged in as Admin
+INFO:root:2026-08-03 09:34:04.283936 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:34:08.300872 - admin viewed About Us page.
+INFO:root:2026-08-03 09:34:09.320523 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:43:10.424835 - admin logged in as Admin
+INFO:root:2026-08-03 09:43:10.491275 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:43:30.511040 - admin logged in as Admin
+INFO:root:2026-08-03 09:43:30.579001 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:46:32.561814 - admin logged in as Admin
+INFO:root:2026-08-03 09:46:32.654796 - admin viewed Home page as Admin.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 09:47:48.326904 - admin logged in as Admin
+INFO:root:2026-08-03 09:47:48.396189 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:48:00.578802 - admin logged in as Admin
+INFO:root:2026-08-03 09:48:00.651063 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 09:48:07.536944 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:32:11.515692 - admin logged in as Admin
+INFO:root:2026-08-03 10:32:11.567565 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 10:32:14.590078 - admin viewed About Us page.
+INFO:root:2026-08-03 10:32:15.582469 - admin viewed Methodology page.
+INFO:root:2026-08-03 10:32:26.321952 - admin viewed Methodology page.
+INFO:root:2026-08-03 10:32:49.578037 - admin viewed About Us page.
+INFO:root:2026-08-03 10:32:50.193531 - admin viewed Methodology page.
+INFO:root:2026-08-03 10:32:53.013943 - admin viewed Methodology page.
+INFO:root:2026-08-03 10:34:05.015295 - admin logged in as Admin
+INFO:root:2026-08-03 10:34:05.078229 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:41:46.880804 - admin logged in as Admin
+INFO:root:2026-08-03 10:41:46.934657 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 10:41:51.756153 - admin viewed About Us page.
+INFO:root:2026-08-03 10:41:52.595891 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:42:23.847266 - admin logged in as Admin
+INFO:root:2026-08-03 10:42:23.898703 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:43:11.147185 - admin logged in as Admin
+INFO:root:2026-08-03 10:43:11.199535 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:44:04.661146 - admin logged in as Admin
+INFO:root:2026-08-03 10:44:04.785139 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:48:36.250800 - admin logged in as Admin
+INFO:root:2026-08-03 10:48:36.316345 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:50:15.552623 - admin logged in as Admin
+INFO:root:2026-08-03 10:50:15.604517 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:52:29.020829 - admin logged in as Admin
+INFO:root:2026-08-03 10:52:29.081483 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 10:52:41.179253 - admin viewed Methodology page.
+INFO:root:2026-08-03 10:52:51.319427 - admin logged in as Admin
+INFO:root:2026-08-03 10:52:51.390846 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 10:58:39.515746 - admin logged in as Admin
+INFO:root:2026-08-03 10:58:39.566336 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 11:44:04.066276 - admin logged in as Admin
+INFO:root:2026-08-03 11:44:04.122512 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 11:44:07.295930 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 12:02:16.190214 - admin logged in as Admin
+INFO:root:2026-08-03 12:02:16.255351 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 12:02:21.173485 - admin viewed Methodology page.
+INFO:root:2026-08-03 12:02:23.137550 - admin viewed About Us page.
+INFO:root:2026-08-03 12:02:24.088521 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 14:22:00.292786 - admin logged in as Admin
+INFO:root:2026-08-03 14:22:00.364457 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 17:02:26.695913 - admin logged in as Admin
+INFO:root:2026-08-03 17:02:26.778382 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 17:05:59.867256 - admin logged in as Admin
+INFO:root:2026-08-03 17:05:59.945319 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 17:15:03.241013 - admin logged in as Admin
+INFO:root:2026-08-03 17:15:03.366249 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 17:15:57.815437 - admin logged in as Admin
+INFO:root:2026-08-03 17:15:57.923438 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 17:18:18.978751 - admin logged in as Admin
+INFO:root:2026-08-03 17:18:19.026752 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 17:20:20.546379 - admin logged in as Admin
+INFO:root:2026-08-03 17:20:20.574446 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 21:20:59.491138 - admin logged in as Admin
+INFO:root:2026-08-03 21:20:59.518571 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 21:21:03.894348 - admin viewed About Us page.
+INFO:root:2026-08-03 21:21:04.842651 - admin viewed Methodology page.
+INFO:root:2026-08-03 22:07:19.623696 - admin logged in as Admin
+INFO:root:2026-08-03 22:07:19.702206 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 22:14:09.754702 - admin logged in as Admin
+INFO:root:2026-08-03 22:14:09.835148 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-03 22:17:34.505262 - admin logged in as Admin
+INFO:root:2026-08-03 22:17:34.595119 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 22:19:09.256993 - admin logged in as Admin
+INFO:root:2026-08-03 22:19:09.342689 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 22:19:42.739949 - user logged in as User
+INFO:root:2026-08-03 22:19:42.825129 - user viewed Home page as User.
+INFO:root:2026-08-03 22:19:45.675214 - user viewed Methodology page.
+INFO:root:2026-08-03 22:23:25.734734 - admin logged in as Admin
+INFO:root:2026-08-03 22:23:25.829907 - admin viewed Home page as Admin.
+INFO:root:2026-08-03 22:31:30.272860 - admin logged in as Admin
+INFO:root:2026-08-03 22:31:30.360274 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 10:17:45.095649 - admin logged in as Admin
+INFO:root:2026-08-05 10:17:45.201445 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 10:17:48.784096 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-05 10:26:55.050951 - admin logged in as Admin
+INFO:root:2026-08-05 10:26:55.128450 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 10:27:07.368567 - admin viewed Methodology page.
+INFO:root:2026-08-05 10:30:26.052592 - admin logged in as Admin
+INFO:root:2026-08-05 10:30:26.130867 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-05 10:34:36.547910 - admin logged in as Admin
+INFO:root:2026-08-05 10:34:36.631868 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 11:37:42.663455 - admin logged in as Admin
+INFO:root:2026-08-05 11:37:42.742300 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 11:57:26.725666 - admin logged in as Admin
+INFO:root:2026-08-05 11:57:26.807970 - admin viewed Home page as Admin.
+INFO:root:2026-08-05 15:35:31.916490 - admin logged in as Admin
+INFO:root:2026-08-05 15:35:31.984212 - admin viewed Home page as Admin.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-07 09:18:50.654341 - admin logged in as Admin
+INFO:root:2026-08-07 09:18:50.752567 - admin viewed Home page as Admin.
+INFO:root:2026-08-07 09:18:53.611866 - admin viewed Methodology page.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-07 09:21:08.842208 - admin viewed Methodology page.
+INFO:root:2026-08-07 09:21:15.491767 - user logged in as User
+INFO:root:2026-08-07 09:21:15.568138 - user viewed Home page as User.
+INFO:root:2026-08-11 08:58:31.869510 - user viewed Home page as User.
+INFO:root:2026-08-11 08:58:33.516291 - user viewed About Us page.
+INFO:root:2026-08-11 08:58:35.582902 - user viewed Methodology page.
+INFO:root:2026-08-11 08:59:15.149655 - user viewed Methodology page.
+INFO:root:2026-08-11 08:59:43.099508 - user viewed Home page as User.
+INFO:root:2026-08-11 08:59:46.334909 - user viewed About Us page.
+INFO:root:2026-08-11 09:10:22.580497 - admin logged in as Admin
+INFO:root:2026-08-11 09:10:22.638144 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 09:10:25.208235 - admin viewed About Us page.
+INFO:root:2026-08-11 09:10:27.159747 - admin viewed Methodology page.
+INFO:root:2026-08-11 09:19:43.422881 - admin logged in as Admin
+INFO:root:2026-08-11 09:19:43.479400 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 09:19:46.109942 - admin viewed About Us page.
+INFO:root:2026-08-11 09:19:47.428720 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-11 09:57:16.472498 - admin logged in as Admin
+INFO:root:2026-08-11 09:57:16.538146 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 09:57:28.879219 - admin logged in as Admin
+INFO:root:2026-08-11 09:57:28.933095 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 09:57:31.236346 - admin viewed About Us page.
+INFO:root:2026-08-11 09:57:31.868355 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-11 10:05:31.209780 - user logged in as User
+INFO:root:2026-08-11 10:05:31.267644 - user viewed Home page as User.
+INFO:root:2026-08-11 10:05:33.151389 - user viewed Methodology page.
+INFO:root:2026-08-11 10:05:38.551852 - user viewed Home page as User.
+INFO:root:2026-08-11 10:05:41.368389 - user viewed About Us page.
+INFO:root:2026-08-11 10:05:42.869812 - user viewed Methodology page.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-11 10:06:20.221932 - user viewed Home page as User.
+INFO:root:2026-08-11 10:08:36.027273 - admin logged in as Admin
+INFO:root:2026-08-11 10:08:36.081465 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 10:09:39.026272 - admin uploaded SLA.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-11 10:10:10.724489 - admin viewed About Us page.
+INFO:root:2026-08-11 10:10:14.952963 - admin viewed Methodology page.
+INFO:root:2026-08-11 10:13:49.090576 - admin deleted NN100 System Specs.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-11 10:13:49.955094 - admin deleted SLA.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-11 10:13:51.086415 - admin deleted SOR_IFM Contract.docx from Schedule of Rate (SOR)
+INFO:root:2026-08-11 10:13:51.680149 - admin deleted SOR_by_Category.docx from Schedule of Rate (SOR)
+INFO:root:2026-08-11 10:13:52.256244 - admin deleted SOR p.1-7 (1).docx from Schedule of Rate (SOR)
+INFO:root:2026-08-11 17:10:32.026373 - admin viewed Home page as Admin.
+INFO:root:2026-08-11 17:10:33.902664 - admin viewed About Us page.
+INFO:root:2026-08-11 17:10:34.920033 - admin viewed Methodology page.
+INFO:root:2026-08-11 17:10:44.473130 - admin uploaded SOR_IFM Contract.docx to SOR
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-11 17:14:51.145450 - admin uploaded Preventive Maintenance Checklist.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-11 17:16:38.420731 - admin viewed About Us page.
+INFO:root:2026-08-11 17:16:39.505130 - admin viewed Methodology page.
+INFO:root:2026-08-12 09:09:07.501548 - admin logged in as Admin
+INFO:root:2026-08-12 09:09:07.568692 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 09:09:14.307020 - admin viewed About Us page.
+INFO:root:2026-08-12 10:04:20.063637 - admin logged in as Admin
+INFO:root:2026-08-12 10:04:20.127842 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 10:04:38.167538 - admin uploaded Consolidated SLA.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:07:58.000642 - admin logged in as Admin
+INFO:root:2026-08-12 10:07:58.063824 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 10:08:08.208298 - admin logged in as Admin
+INFO:root:2026-08-12 10:08:08.272819 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-12 10:08:16.076751 - admin viewed Methodology page.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:11:16.455857 - admin logged in as Admin
+INFO:root:2026-08-12 10:11:16.547665 - admin viewed Home page as Admin.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:19:57.994284 - admin logged in as Admin
+INFO:root:2026-08-12 10:19:58.051542 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:21:53.451404 - admin logged in as Admin
+INFO:root:2026-08-12 10:21:53.507750 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:23:28.169770 - admin logged in as Admin
+INFO:root:2026-08-12 10:23:28.220182 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:25:01.185187 - admin logged in as Admin
+INFO:root:2026-08-12 10:25:01.241692 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:26:57.961582 - admin logged in as Admin
+INFO:root:2026-08-12 10:26:58.026756 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 10:28:23.363681 - admin logged in as Admin
+INFO:root:2026-08-12 10:28:23.432233 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 16:31:45.653276 - admin logged in as Admin
+INFO:root:2026-08-12 16:31:45.740902 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 16:32:21.488918 - admin viewed About Us page.
+INFO:root:2026-08-12 16:33:06.622199 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:33:14.235170 - admin viewed About Us page.
+INFO:root:2026-08-12 16:33:15.232517 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:33:18.136789 - admin viewed About Us page.
+INFO:root:2026-08-12 16:33:18.930004 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:33:22.253305 - admin viewed About Us page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-12 16:33:51.165370 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:33:51.823696 - admin viewed About Us page.
+INFO:root:2026-08-12 16:34:10.421138 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 16:34:15.108905 - admin viewed About Us page.
+INFO:root:2026-08-12 16:34:16.523766 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:34:20.237013 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:43:01.920896 - admin viewed About Us page.
+INFO:root:2026-08-12 16:47:03.548995 - admin viewed Methodology page.
+INFO:root:2026-08-12 16:47:29.804683 - user logged in as User
+INFO:root:2026-08-12 16:47:29.925785 - user viewed Home page as User.
+INFO:root:2026-08-12 16:47:33.183610 - user viewed About Us page.
+INFO:root:2026-08-12 16:47:34.766391 - user viewed Methodology page.
+INFO:root:2026-08-12 17:08:30.220879 - admin logged in as Admin
+INFO:root:2026-08-12 17:08:30.315170 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:08:33.125626 - admin viewed About Us page.
+INFO:root:2026-08-12 17:08:52.753395 - admin logged in as Admin
+INFO:root:2026-08-12 17:08:52.875045 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:08:56.411814 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:29.510070 - admin logged in as Admin
+INFO:root:2026-08-12 17:09:29.591738 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:09:32.135857 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:46.323704 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:50.720799 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:52.573920 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:54.313850 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:56.142351 - admin viewed About Us page.
+INFO:root:2026-08-12 17:09:57.120232 - admin viewed About Us page.
+INFO:root:2026-08-12 17:10:17.115133 - admin viewed About Us page.
+INFO:root:2026-08-12 17:10:39.869123 - admin viewed About Us page.
+INFO:root:2026-08-12 17:11:06.922598 - admin viewed About Us page.
+INFO:root:2026-08-12 17:11:11.311231 - admin viewed About Us page.
+INFO:root:2026-08-12 17:11:33.730334 - admin viewed About Us page.
+INFO:root:2026-08-12 17:11:42.508089 - admin viewed About Us page.
+INFO:root:2026-08-12 17:11:51.105875 - admin viewed About Us page.
+INFO:root:2026-08-12 17:12:12.877262 - admin viewed About Us page.
+INFO:root:2026-08-12 17:12:17.981736 - admin viewed About Us page.
+INFO:root:2026-08-12 17:12:30.234922 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:19.992496 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:22.650804 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:27.117557 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:29.767783 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:32.213230 - admin viewed About Us page.
+INFO:root:2026-08-12 17:13:37.306889 - admin viewed About Us page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 17:21:32.773250 - admin uploaded RAG_Service_Level_Requirements_Summary.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 17:27:17.644513 - admin viewed About Us page.
+INFO:root:2026-08-12 17:27:23.676957 - admin viewed About Us page.
+INFO:root:2026-08-12 17:30:30.230278 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:00.626111 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:05.877362 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:40.674322 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:47.597194 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:50.184713 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:51.114618 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:52.879521 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:54.696904 - admin viewed About Us page.
+INFO:root:2026-08-12 17:31:58.173555 - admin viewed About Us page.
+INFO:root:2026-08-12 17:32:05.102152 - admin viewed About Us page.
+INFO:root:2026-08-12 17:32:43.173026 - admin viewed About Us page.
+INFO:root:2026-08-12 17:32:44.829483 - admin viewed About Us page.
+INFO:root:2026-08-12 17:32:46.641178 - admin viewed About Us page.
+INFO:root:2026-08-12 17:33:22.462711 - admin logged in as Admin
+INFO:root:2026-08-12 17:33:22.543488 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:33:27.023827 - admin viewed About Us page.
+INFO:root:2026-08-12 17:34:03.785273 - admin viewed About Us page.
+INFO:root:2026-08-12 17:36:06.999303 - admin logged in as Admin
+INFO:root:2026-08-12 17:36:07.083604 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:36:12.268630 - admin viewed About Us page.
+INFO:root:2026-08-12 17:44:05.928292 - admin viewed About Us page.
+INFO:root:2026-08-12 17:44:33.950093 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:27.283686 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:44.792978 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:46.424267 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:47.380406 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:49.995171 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:51.861383 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:53.689323 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:56.337762 - admin viewed About Us page.
+INFO:root:2026-08-12 17:45:58.171107 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:05.107776 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:10.389945 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:13.841939 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:17.311867 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:21.774062 - admin viewed About Us page.
+INFO:root:2026-08-12 17:46:26.064050 - admin viewed About Us page.
+INFO:root:2026-08-12 17:47:07.074130 - admin viewed About Us page.
+INFO:root:2026-08-12 17:47:08.838331 - admin viewed About Us page.
+INFO:root:2026-08-12 17:47:11.471552 - admin viewed About Us page.
+INFO:root:2026-08-12 17:47:14.923826 - admin viewed About Us page.
+INFO:root:2026-08-12 17:47:17.541569 - admin viewed About Us page.
+INFO:root:2026-08-12 17:48:07.238919 - admin viewed About Us page.
+INFO:root:2026-08-12 17:48:26.417588 - admin viewed About Us page.
+INFO:root:2026-08-12 17:48:33.540552 - admin viewed About Us page.
+INFO:root:2026-08-12 17:48:38.837286 - admin viewed About Us page.
+INFO:root:2026-08-12 17:48:56.164112 - admin logged in as Admin
+INFO:root:2026-08-12 17:48:56.266154 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:49:01.660119 - admin viewed About Us page.
+INFO:root:2026-08-12 17:49:28.274102 - admin viewed About Us page.
+INFO:root:2026-08-12 17:49:30.046741 - admin viewed About Us page.
+INFO:root:2026-08-12 17:49:31.823304 - admin viewed About Us page.
+INFO:root:2026-08-12 17:49:59.097554 - admin logged in as Admin
+INFO:root:2026-08-12 17:49:59.203153 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:50:02.831397 - admin viewed About Us page.
+INFO:root:2026-08-12 17:50:39.156954 - admin viewed About Us page.
+INFO:root:2026-08-12 17:50:42.554674 - admin viewed About Us page.
+INFO:root:2026-08-12 17:50:47.019862 - admin viewed About Us page.
+INFO:root:2026-08-12 17:50:49.655816 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:08.652934 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:12.116578 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:14.723906 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:19.179313 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:21.823892 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:26.032543 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:28.812901 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:35.129845 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:40.424418 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:43.068992 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:46.664668 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:48.430671 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:52.843649 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:55.417423 - admin viewed About Us page.
+INFO:root:2026-08-12 17:51:56.360323 - admin viewed About Us page.
+INFO:root:2026-08-12 17:52:07.865451 - admin viewed About Us page.
+INFO:root:2026-08-12 17:52:11.260049 - admin viewed About Us page.
+INFO:root:2026-08-12 17:52:39.239997 - admin logged in as Admin
+INFO:root:2026-08-12 17:52:39.335220 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:52:42.209238 - admin viewed About Us page.
+INFO:root:2026-08-12 17:53:17.398757 - admin viewed About Us page.
+INFO:root:2026-08-12 17:53:20.977126 - admin viewed About Us page.
+INFO:root:2026-08-12 17:53:33.026224 - admin viewed About Us page.
+INFO:root:2026-08-12 17:53:47.832738 - admin viewed About Us page.
+INFO:root:2026-08-12 17:53:49.588061 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:02.529778 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:06.855285 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:10.440365 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:13.912321 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:17.510407 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:19.296003 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:21.877532 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:24.532457 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:27.168378 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:35.683531 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:40.092909 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:42.759239 - admin viewed About Us page.
+INFO:root:2026-08-12 17:54:48.008545 - admin viewed About Us page.
+INFO:root:2026-08-12 17:55:27.674774 - admin logged in as Admin
+INFO:root:2026-08-12 17:55:27.779638 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 17:55:31.619174 - admin viewed About Us page.
+INFO:root:2026-08-12 18:03:24.953136 - admin viewed About Us page.
+INFO:root:2026-08-12 18:03:44.899966 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:07.969885 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:09.765432 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:26.276332 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:30.584566 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:35.029092 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:37.675058 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:42.117746 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:43.878830 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:45.705362 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:50.944209 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:52.699279 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:57.100794 - admin viewed About Us page.
+INFO:root:2026-08-12 18:05:59.684594 - admin viewed About Us page.
+INFO:root:2026-08-12 18:06:06.620703 - admin viewed About Us page.
+INFO:root:2026-08-12 18:06:10.104117 - admin viewed About Us page.
+INFO:root:2026-08-12 18:06:14.537678 - admin viewed About Us page.
+INFO:root:2026-08-12 18:07:28.620751 - admin viewed About Us page.
+INFO:root:2026-08-12 18:07:34.801976 - admin viewed About Us page.
+INFO:root:2026-08-12 18:07:50.445764 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:25.937482 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:28.536704 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:30.332579 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:32.939976 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:39.021913 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:43.488203 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:45.147576 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:49.549515 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:51.296305 - admin viewed About Us page.
+INFO:root:2026-08-12 18:08:56.583382 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:00.042064 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:01.695364 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:06.949472 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:07.882167 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:34.805731 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:37.448477 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:40.906305 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:42.543835 - admin viewed About Us page.
+INFO:root:2026-08-12 18:09:59.742059 - admin viewed About Us page.
+INFO:root:2026-08-12 18:13:38.266480 - admin viewed About Us page.
+INFO:root:2026-08-12 18:13:42.687315 - admin viewed About Us page.
+INFO:root:2026-08-12 18:13:57.547611 - admin viewed About Us page.
+INFO:root:2026-08-12 18:14:01.834786 - admin viewed About Us page.
+INFO:root:2026-08-12 18:14:14.683272 - admin viewed About Us page.
+INFO:root:2026-08-12 18:14:18.150028 - admin viewed About Us page.
+INFO:root:2026-08-12 18:14:22.589416 - admin viewed About Us page.
+INFO:root:2026-08-12 18:14:24.338218 - admin viewed About Us page.
+INFO:root:2026-08-12 18:15:02.443494 - admin viewed About Us page.
+INFO:root:2026-08-12 18:15:06.738737 - admin viewed About Us page.
+INFO:root:2026-08-12 18:15:11.028729 - admin viewed About Us page.
+INFO:root:2026-08-12 18:15:16.276040 - admin viewed About Us page.
+INFO:root:2026-08-12 18:15:21.506362 - admin viewed About Us page.
+INFO:root:2026-08-12 18:17:18.062804 - admin logged in as Admin
+INFO:root:2026-08-12 18:17:18.162460 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 18:17:20.643923 - admin viewed About Us page.
+INFO:root:2026-08-12 18:18:40.447658 - admin viewed About Us page.
+INFO:root:2026-08-12 18:18:48.312240 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:01.271833 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:04.751977 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:12.634767 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:16.929648 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:21.388217 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:24.872975 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:28.449103 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:34.312901 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:36.053569 - admin viewed About Us page.
+INFO:root:2026-08-12 18:19:40.462675 - admin viewed About Us page.
+INFO:root:2026-08-12 18:21:28.210894 - admin viewed About Us page.
+INFO:root:2026-08-12 18:21:36.739579 - admin viewed About Us page.
+INFO:root:2026-08-12 18:21:38.561078 - admin viewed About Us page.
+INFO:root:2026-08-12 18:21:46.301369 - admin viewed About Us page.
+INFO:root:2026-08-12 18:21:49.954818 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:13.211583 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:15.037329 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:15.857165 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:26.268085 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:30.710828 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:36.008743 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:38.663663 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:42.956158 - admin viewed About Us page.
+INFO:root:2026-08-12 18:22:47.225088 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:01.899234 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:11.610817 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:20.375071 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:24.674646 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:30.789838 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:44.770817 - admin viewed About Us page.
+INFO:root:2026-08-12 18:23:56.163781 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:00.580487 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:04.784721 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:06.539939 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:09.206337 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:10.954825 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:15.367455 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:17.193887 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:22.313239 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:28.406698 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:30.181423 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:33.567859 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:37.145148 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:43.191453 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:46.649989 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:50.057257 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:52.629328 - admin viewed About Us page.
+INFO:root:2026-08-12 18:24:58.131211 - admin viewed About Us page.
+INFO:root:2026-08-12 18:25:02.544542 - admin viewed About Us page.
+INFO:root:2026-08-12 18:25:05.303358 - admin viewed About Us page.
+INFO:root:2026-08-12 18:25:08.763413 - admin viewed About Us page.
+INFO:root:2026-08-12 18:25:27.877621 - admin viewed About Us page.
+INFO:root:2026-08-12 18:25:32.283873 - admin viewed About Us page.
+INFO:root:2026-08-12 18:28:06.489914 - admin viewed About Us page.
+INFO:root:2026-08-12 18:28:23.071999 - admin viewed About Us page.
+INFO:root:2026-08-12 18:28:33.681630 - admin viewed About Us page.
+INFO:root:2026-08-12 18:28:48.552805 - admin viewed About Us page.
+INFO:root:2026-08-12 18:28:54.575350 - admin viewed About Us page.
+INFO:root:2026-08-12 18:29:04.688742 - admin viewed About Us page.
+INFO:root:2026-08-12 18:29:09.981510 - admin viewed About Us page.
+INFO:root:2026-08-12 18:29:14.285538 - admin viewed About Us page.
+INFO:root:2026-08-12 18:31:49.563431 - admin viewed About Us page.
+INFO:root:2026-08-12 18:31:52.197678 - admin viewed About Us page.
+INFO:root:2026-08-12 18:31:55.666917 - admin viewed About Us page.
+INFO:root:2026-08-12 18:31:58.292634 - admin viewed About Us page.
+INFO:root:2026-08-12 18:31:59.132265 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:01.757469 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:02.705035 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:08.835447 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:19.225416 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:21.868941 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:31.369847 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:33.114497 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:37.386605 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:40.034208 - admin viewed About Us page.
+INFO:root:2026-08-12 18:32:49.740532 - admin viewed About Us page.
+INFO:root:2026-08-12 18:33:05.564595 - admin viewed About Us page.
+INFO:root:2026-08-12 18:33:33.239599 - admin viewed About Us page.
+INFO:root:2026-08-12 18:33:36.665574 - admin viewed About Us page.
+INFO:root:2026-08-12 18:33:43.568685 - admin viewed About Us page.
+INFO:root:2026-08-12 18:33:44.544265 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:03.984521 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:04.948903 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:06.584686 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:11.022654 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:14.459415 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:16.251226 - admin viewed About Us page.
+INFO:root:2026-08-12 18:35:50.879748 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:04.845144 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:05.786220 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:34.496309 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:37.137454 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:40.619423 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:45.838969 - admin viewed About Us page.
+INFO:root:2026-08-12 18:36:53.589111 - admin viewed About Us page.
+INFO:root:2026-08-12 18:37:05.792134 - admin viewed About Us page.
+INFO:root:2026-08-12 18:37:37.829441 - admin viewed About Us page.
+INFO:root:2026-08-12 18:37:43.072709 - admin viewed About Us page.
+INFO:root:2026-08-12 18:37:57.898247 - admin viewed About Us page.
+INFO:root:2026-08-12 18:38:41.419517 - admin viewed About Us page.
+INFO:root:2026-08-12 18:38:45.887979 - admin viewed About Us page.
+INFO:root:2026-08-12 18:38:55.477110 - admin viewed About Us page.
+INFO:root:2026-08-12 18:38:57.243272 - admin viewed About Us page.
+INFO:root:2026-08-12 18:39:03.350069 - admin viewed About Us page.
+INFO:root:2026-08-12 18:40:40.402644 - admin viewed About Us page.
+INFO:root:2026-08-12 18:40:44.749523 - admin viewed Methodology page.
+INFO:root:2026-08-12 18:40:58.645297 - admin viewed About Us page.
+INFO:root:2026-08-12 18:41:03.088098 - admin viewed About Us page.
+INFO:root:2026-08-12 18:41:05.753397 - admin viewed About Us page.
+INFO:root:2026-08-12 18:43:51.724695 - admin viewed About Us page.
+INFO:root:2026-08-12 18:43:59.607133 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:07.468540 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:24.955183 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:28.417032 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:36.301264 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:41.515010 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:43.305415 - admin viewed About Us page.
+INFO:root:2026-08-12 18:44:45.072801 - admin viewed About Us page.
+INFO:root:2026-08-12 18:45:28.387652 - admin viewed About Us page.
+INFO:root:2026-08-12 18:45:31.972406 - admin viewed About Us page.
+INFO:root:2026-08-12 18:45:50.229208 - admin viewed About Us page.
+INFO:root:2026-08-12 18:46:36.181287 - admin viewed About Us page.
+INFO:root:2026-08-12 18:46:40.595977 - admin viewed About Us page.
+INFO:root:2026-08-12 18:46:43.240228 - admin viewed About Us page.
+INFO:root:2026-08-12 18:46:48.538263 - admin viewed About Us page.
+INFO:root:2026-08-12 18:46:50.174475 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:19.208197 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:24.433730 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:37.418206 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:51.181721 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:56.392043 - admin viewed About Us page.
+INFO:root:2026-08-12 18:48:59.984234 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:01.818280 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:06.851634 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:10.328261 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:12.122800 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:19.191991 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:22.781082 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:23.738370 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:25.502900 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:26.439940 - admin viewed About Us page.
+INFO:root:2026-08-12 18:49:28.314537 - admin viewed About Us page.
+INFO:root:2026-08-12 18:50:41.905651 - admin logged in as Admin
+INFO:root:2026-08-12 18:50:42.011218 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 18:50:44.816248 - admin viewed About Us page.
+INFO:root:2026-08-12 18:50:47.178736 - admin viewed Methodology page.
+INFO:root:2026-08-12 18:51:24.330331 - admin logged in as Admin
+INFO:root:2026-08-12 18:51:24.426084 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 18:51:30.944822 - admin viewed About Us page.
+INFO:root:2026-08-12 18:53:32.293973 - admin uploaded SOP_AC_001_AHU_FCU_Operation_and_Maintenance.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-12 18:54:22.252919 - user logged in as User
+INFO:root:2026-08-12 18:54:22.350584 - user viewed Home page as User.
+INFO:root:2026-08-12 18:54:28.304338 - user viewed About Us page.
+INFO:root:2026-08-12 18:54:29.934146 - user viewed Methodology page.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 18:55:52.154840 - admin logged in as Admin
+INFO:root:2026-08-12 18:55:52.245543 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 18:56:31.946782 - user logged in as User
+INFO:root:2026-08-12 18:56:32.028996 - user viewed Home page as User.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 18:57:40.932047 - admin logged in as Admin
+INFO:root:2026-08-12 18:57:41.017623 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 18:57:53.269649 - admin viewed About Us page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-12 18:58:28.423463 - admin viewed Methodology page.
+INFO:root:2026-08-12 18:58:33.630341 - admin viewed About Us page.
+INFO:root:2026-08-12 19:04:37.772634 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:31:31.223558 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:31:31.959131 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-12 19:31:50.693799 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:31:53.417725 - admin viewed About Us page.
+INFO:root:2026-08-12 19:32:02.989363 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:32:29.808084 - admin logged in as Admin
+INFO:root:2026-08-12 19:32:29.884177 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:32:33.351314 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:33:07.336506 - admin logged in as Admin
+INFO:root:2026-08-12 19:33:07.426146 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:33:13.814877 - admin viewed About Us page.
+INFO:root:2026-08-12 19:33:15.965973 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:42:38.273996 - admin logged in as Admin
+INFO:root:2026-08-12 19:42:38.367491 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:42:42.554930 - admin viewed About Us page.
+INFO:root:2026-08-12 19:42:43.400416 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:44:26.894101 - admin logged in as Admin
+INFO:root:2026-08-12 19:44:27.012099 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:44:40.590613 - admin viewed About Us page.
+INFO:root:2026-08-12 19:47:56.328240 - admin logged in as Admin
+INFO:root:2026-08-12 19:47:56.414527 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:48:00.413636 - admin viewed Methodology page.
+INFO:root:2026-08-12 19:48:01.687363 - admin viewed About Us page.
+INFO:root:2026-08-12 19:48:11.691608 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 19:52:47.275972 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:52:48.021802 - admin viewed About Us page.
+INFO:root:2026-08-12 19:52:49.669424 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 19:53:04.094489 - admin viewed About Us page.
+INFO:root:2026-08-12 19:53:15.486946 - user logged in as User
+INFO:root:2026-08-12 19:53:15.576761 - user viewed Home page as User.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-12 19:55:14.682284 - user viewed Home page as User.
+INFO:root:2026-08-12 19:55:18.081590 - user viewed About Us page.
+INFO:root:2026-08-12 19:55:22.919728 - user viewed Methodology page.
+INFO:root:2026-08-12 20:06:29.503452 - admin logged in as Admin
+INFO:root:2026-08-12 20:06:29.586410 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 20:06:41.303757 - admin viewed About Us page.
+INFO:root:2026-08-12 20:06:41.895643 - admin viewed Methodology page.
+INFO:root:2026-08-12 20:12:18.986403 - admin viewed Methodology page.
+INFO:root:2026-08-12 20:13:26.625971 - admin logged in as Admin
+INFO:root:2026-08-12 20:13:26.699513 - admin viewed Home page as Admin.
+INFO:root:2026-08-12 20:13:29.623384 - admin viewed Methodology page.
+INFO:root:2026-08-13 08:46:55.619170 - admin logged in as Admin
+INFO:root:2026-08-13 08:46:55.746848 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 12:46:24.302931 - admin logged in as Admin
+INFO:root:2026-08-13 12:46:24.413258 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-13 12:46:48.351992 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 12:46:50.535692 - admin viewed About Us page.
+INFO:root:2026-08-13 12:48:02.553615 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:48:48.158826 - admin logged in as Admin
+INFO:root:2026-08-13 16:48:48.247081 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 16:48:51.456576 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:50:20.726441 - admin logged in as Admin
+INFO:root:2026-08-13 16:50:20.805436 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 16:50:23.708630 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:50:39.343929 - admin logged in as Admin
+INFO:root:2026-08-13 16:50:39.429745 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 16:50:43.142143 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:51:39.926792 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:51:52.788036 - admin viewed Methodology page.
+INFO:root:2026-08-13 16:52:09.054049 - admin logged in as Admin
+INFO:root:2026-08-13 16:52:09.134524 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 16:52:13.510781 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:03:02.666252 - admin logged in as Admin
+INFO:root:2026-08-13 17:03:02.749697 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:03:06.167969 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:03:36.680714 - admin logged in as Admin
+INFO:root:2026-08-13 17:03:36.771536 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:03:41.500353 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:05:15.730261 - admin logged in as Admin
+INFO:root:2026-08-13 17:05:15.806211 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:05:19.253100 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 17:16:32.836982 - Failed login attempt for admin
+INFO:root:2026-08-13 17:16:40.119024 - admin logged in as Admin
+INFO:root:2026-08-13 17:16:40.213304 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:16:44.042778 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:17:02.520687 - admin logged in as Admin
+INFO:root:2026-08-13 17:17:02.613594 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:17:06.377119 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:18:04.252266 - admin logged in as Admin
+INFO:root:2026-08-13 17:18:04.340111 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:18:09.077286 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:28:40.385728 - admin logged in as Admin
+INFO:root:2026-08-13 17:28:40.455315 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:28:48.729204 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:29:17.794486 - Failed login attempt for admin
+INFO:root:2026-08-13 17:29:21.477400 - Failed login attempt for admin
+INFO:root:2026-08-13 17:29:22.557437 - Failed login attempt for admin
+INFO:root:2026-08-13 17:29:27.171949 - admin logged in as Admin
+INFO:root:2026-08-13 17:29:27.253404 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:29:32.911495 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:30:40.874105 - admin logged in as Admin
+INFO:root:2026-08-13 17:30:40.953660 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:30:42.807239 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:31:48.360403 - admin logged in as Admin
+INFO:root:2026-08-13 17:31:48.439444 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:31:58.555822 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:32:25.226886 - admin logged in as Admin
+INFO:root:2026-08-13 17:32:25.313545 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:32:29.711652 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:36:06.094574 - admin logged in as Admin
+INFO:root:2026-08-13 17:36:06.177007 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:36:10.170970 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:36:39.011140 - admin logged in as Admin
+INFO:root:2026-08-13 17:36:39.076306 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:36:41.677981 - admin viewed Methodology page.
+INFO:root:2026-08-13 17:45:08.342534 - admin logged in as Admin
+INFO:root:2026-08-13 17:45:08.411790 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 17:45:12.469606 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 17:54:11.879372 - admin logged in as Admin
+INFO:root:2026-08-13 17:54:11.960989 - admin viewed Home page as Admin.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 18:03:50.571445 - admin logged in as Admin
+INFO:root:2026-08-13 18:03:50.659362 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-13 18:04:37.013005 - admin logged in as Admin
+INFO:root:2026-08-13 18:04:37.099643 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 18:06:39.493078 - admin logged in as Admin
+INFO:root:2026-08-13 18:06:39.579813 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:06:45.598408 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:10:16.787907 - admin viewed About Us page.
+INFO:root:2026-08-13 18:10:44.577061 - user logged in as User
+INFO:root:2026-08-13 18:10:44.669570 - user viewed Home page as User.
+INFO:root:2026-08-13 18:10:48.381382 - user viewed About Us page.
+INFO:root:2026-08-13 18:10:48.924952 - user viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-13 18:11:00.179897 - user viewed Home page as User.
+INFO:root:2026-08-13 18:11:11.057475 - user viewed Methodology page.
+INFO:root:2026-08-13 18:15:19.592424 - admin logged in as Admin
+INFO:root:2026-08-13 18:15:19.675753 - admin viewed Home page as Admin.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 18:27:42.707309 - admin logged in as Admin
+INFO:root:2026-08-13 18:27:42.804023 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:27:46.201454 - admin viewed About Us page.
+INFO:root:2026-08-13 18:27:50.279971 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:28:23.369018 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:06.628273 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:11.831839 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:13.550709 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:29.259837 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:31.904358 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:36.179500 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:46.557222 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:48.366425 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:56.204137 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:29:57.028261 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:32:59.749727 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:33:03.165567 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:33:21.851024 - admin logged in as Admin
+INFO:root:2026-08-13 18:33:21.947978 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:37:22.196336 - admin logged in as Admin
+INFO:root:2026-08-13 18:37:22.289112 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:37:26.955914 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:39:33.762627 - admin logged in as Admin
+INFO:root:2026-08-13 18:39:33.854611 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:39:42.070718 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:47:44.519801 - admin logged in as Admin
+INFO:root:2026-08-13 18:47:44.606142 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 18:47:53.756365 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:49:44.621727 - admin logged in as Admin
+INFO:root:2026-08-13 18:49:44.713007 - admin viewed Home page as Admin.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-13 18:49:53.020392 - admin viewed Methodology page.
+INFO:root:2026-08-13 18:52:05.744057 - admin viewed About Us page.
+INFO:root:2026-08-13 18:59:58.001733 - admin logged in as Admin
+INFO:root:2026-08-13 18:59:58.084976 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:04:07.725407 - admin logged in as Admin
+INFO:root:2026-08-13 19:04:07.815356 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:05:02.628615 - admin logged in as Admin
+INFO:root:2026-08-13 19:05:02.715345 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:05:11.575561 - admin logged in as Admin
+INFO:root:2026-08-13 19:05:11.663853 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:05:52.607260 - admin viewed About Us page.
+INFO:root:2026-08-13 19:05:54.422034 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:05:57.685145 - admin viewed About Us page.
+INFO:root:2026-08-13 19:09:13.833585 - admin viewed Methodology page.
+INFO:root:2026-08-13 19:11:37.075035 - admin uploaded SOR_NN100_Aircon_AVdocx.docx to SOR
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:root:2026-08-13 19:16:46.566411 - admin deleted Preventive Maintenance Checklist.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-13 19:16:47.277209 - admin deleted Consolidated SLA.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-13 19:16:47.902928 - admin deleted SOP_AC_001_AHU_FCU_Operation_and_Maintenance.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-13 19:16:48.629518 - admin deleted RAG_Service_Level_Requirements_Summary.docx from Standard Operating Procedures (SOP)
+INFO:root:2026-08-13 19:17:11.657757 - admin uploaded SOP_AC_001_AHU_FCU_Operation_and_Maintenance.docx to SOP
+INFO:root:2026-08-13 19:17:11.658451 - admin uploaded SOP_BMS_001_Building_Management_System_Operation_and_Maintenance.docx to SOP
+INFO:root:2026-08-13 19:17:11.659290 - admin uploaded SOP_VVRS_001_Operation_and_Maintenance.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 19:17:34.147343 - admin uploaded SOP_AC_001_AHU_FCU_Operation_and_Maintenance.docx to SOP
+INFO:root:2026-08-13 19:17:34.148081 - admin uploaded SOP_BMS_001_Building_Management_System_Operation_and_Maintenance.docx to SOP
+INFO:root:2026-08-13 19:17:34.149074 - admin uploaded SOP_VVRS_001_Operation_and_Maintenance.docx to SOP
+INFO:root:2026-08-13 19:17:34.150237 - admin uploaded SLA_Knowledge_Records.docx to SOP
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 19:23:10.662655 - admin viewed Methodology page.
+INFO:root:2026-08-13 19:23:14.950184 - admin uploaded OMM_AC_001_Air_Conditioning_System.docx to O&M
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 19:23:25.241888 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:23:27.528739 - admin viewed Methodology page.
+INFO:root:2026-08-13 19:27:22.441072 - admin logged in as Admin
+INFO:root:2026-08-13 19:27:22.526591 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:27:27.551480 - admin viewed About Us page.
+INFO:root:2026-08-13 19:27:40.548486 - admin viewed Methodology page.
+INFO:faiss.loader:Loading faiss.
+INFO:faiss.loader:Successfully loaded faiss.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 19:29:36.966953 - user logged in as User
+INFO:root:2026-08-13 19:29:37.048603 - user viewed Home page as User.
+INFO:root:2026-08-13 19:29:40.787819 - user viewed About Us page.
+INFO:root:2026-08-13 19:29:43.986743 - user viewed Methodology page.
+INFO:root:2026-08-13 19:29:48.136963 - user viewed About Us page.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:2026-08-13 19:31:15.015315 - user viewed Methodology page.
+INFO:root:2026-08-13 19:31:15.404018 - user viewed About Us page.
+INFO:root:2026-08-13 19:31:15.790888 - user viewed Home page as User.
+INFO:root:2026-08-13 19:36:36.819031 - admin logged in as Admin
+INFO:root:2026-08-13 19:36:36.899905 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:37:29.698045 - admin logged in as Admin
+INFO:root:2026-08-13 19:37:29.797211 - admin viewed Home page as Admin.
+INFO:root:2026-08-13 19:37:45.019340 - admin viewed Methodology page.

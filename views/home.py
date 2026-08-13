@@ -35,14 +35,17 @@ def show_home():
 
     # Overview
     st.markdown("""
-    ### 📌 What you can do here:
-    - **Upload Document** → (Only for Admins) Upload SOP, O&M manuals and SOR.
-    - **Operations Assistant** → Search inside uploaded manuals for quick answers.
-    - **SOR Validator** → Validate Schedule of Rates queries with supporting sources.
-    - **Question History** → Review and download past queries and answers.
-    - **Operational Manual** → View SOR, SOP and O&M documents that are uploaded.
-    - **About Us** → Learn about the project and team.
-    - **Methodology** → Understand the RAG pipeline powering this assistant.
+
+    👋Welcome to the **AI Smart Building Assistant** — your tool for streamlined knowledge retrieval and contract compliance validation in Facilities Management.
+
+    ## 📌 What You Can Do Here
+
+    - **About Us** → Learn about the project scope, objectives, and development team.  
+    - **Methodology** → Explore the RAG pipeline and layered architecture powering this assistant.  
+    - **Upload Document (Admin Only)** → Upload SOPs, O&M manuals, and SOR contracts for indexing and search.  
+    - **Operations Assistant (SOP + O&M)** → Query uploaded manuals using natural language to get quick, source‑grounded answers.  
+    - **SOR Validator (SOR Only)** → Validate repair or procurement items against the Schedule of Rates (SOR) with supporting citations.  
+    - **Question History** → Review and download past queries and answers for audit and traceability.  
     """)
 
     # Audit log entry

@@ -1,58 +1,29 @@
 import streamlit as st
-from modules.rag_pipeline import generate_answer
-import datetime
-from modules.history_utils import append_history
-
-def run_operations_query(user_query):
-    """Retrieve relevant operations documents and generate an answer."""
-    vector_store = st.session_state.get("vector_store_ops")
-    if not vector_store:
-        return "No SOP or O&M documents indexed yet. Please upload first."
-
-    results = vector_store.similarity_search(user_query, k=3)
-    answer = generate_answer(user_query, results)
-    sources = [doc.metadata.get("source", "Unknown") for doc in results]
-    if sources:
-        answer += "\n\n📂 Sources: " + ", ".join(sources)
-    return answer
-
-
-if "question_history" not in st.session_state:
-    st.session_state.question_history = []
+from modules.vector_store import load_vector_store
+from modules.chatbot import show_chatbot
 
 def show_operations():
-    st.header("⚙️ Operations Assistant")
+    st.title("⚙️ Operations Assistant")
 
-    if "ops_chat" not in st.session_state:
-        st.session_state.ops_chat = []
+    # --- Status indicator ---
+    if "vector_store_ops" not in st.session_state:
+        st.session_state.vector_store_ops = load_vector_store("combined_ops_index")
 
-    # Display chat history
-    for msg in st.session_state.ops_chat:
-        st.chat_message(msg["role"]).write(msg["content"])
+    if st.session_state.vector_store_ops:
+        st.success("✅ SOP & O&M index loaded and ready")
+    else:
+        st.warning("⚠️ No SOP/O&M index found. Please upload documents first.")
 
-    # Chat input
-    user_query = st.chat_input("Ask about SOP or O&M...")
-    if user_query:
-        st.session_state.ops_chat.append({"role": "user", "content": user_query})
+    st.write("Upload SOP and O&M documents on the **Upload Document** page. "
+             "Then query them here using the chatbot below.")
 
-        # Retrieve relevant chunks from vector store
-        vector_store = st.session_state.get("vector_store_ops")
-        if vector_store:
-            results = vector_store.similarity_search(user_query, k=3)
-            answer = generate_answer(user_query, results)
+    st.markdown("---")
 
-            # Build source reference list
-            sources = [doc.metadata.get("source", "Unknown") for doc in results]
-            if sources:
-                answer += "\n\n📂 Sources: " + ", ".join(sources)
-        else:
-            answer = "No SOP or O&M documents indexed yet. Please upload first."
-
-        st.session_state.ops_chat.append({"role": "assistant", "content": answer})
-        st.session_state.question_history.append({
-            "module": "Operations Assistant",
-            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "question": user_query,
-            "answer": answer,
-        })
-        st.chat_message("assistant").write(answer)
+    # --- Chatbot with summarization ---
+    show_chatbot(
+        vector_store=st.session_state.vector_store_ops,
+        session_key="operations_chat",
+        label="Ask a question about SOP or O&M documents",
+        input_key="ops_chat_input",
+        role="operations assistant"   # ✅ context for summarization
+    )

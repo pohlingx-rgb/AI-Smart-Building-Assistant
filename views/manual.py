@@ -66,11 +66,13 @@ def show_manual():
         for file in filtered_files if search_query else files:
             file_path = os.path.join(folder, file)
             st.download_button(
-                label=f"Download {file}",
-                data=open(file_path, "rb").read(),
-                file_name=file,
-                mime="application/octet-stream"
+            label=f"Download {file}",
+            data=open(file_path, "rb").read(),
+            file_name=file,
+            mime="application/octet-stream",
+            key=f"download_{label}_{file}"   # ✅ unique key per button
             )
+
 
     # Show SOP and O&M separately
     list_files(sop_folder, "Standard Operating Procedures (SOP)", search_query)

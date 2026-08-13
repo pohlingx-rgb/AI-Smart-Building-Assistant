@@ -11,11 +11,13 @@ USERS = {
     "user": {"password": "user123", "role": "User"}
 }
 
-def log_event(event):
+def log_event(event: str):
+    """Write timestamped events to audit.log."""
     logging.info(f"{datetime.now()} - {event}")
 
 def show_login():
-    # If already logged in, show status + logout
+    """Display login form or logged-in status."""
+    # --- If already logged in ---
     if st.session_state.get("username"):
         st.sidebar.success(f"Logged in as {st.session_state.username} ({st.session_state.role})")
         if st.sidebar.button("🚪 Logout", key="logout_login"):
@@ -24,7 +26,7 @@ def show_login():
             st.rerun()
         return
 
-    # Otherwise show login form
+    # --- Login form ---
     st.title("🔐 Login")
 
     username = st.text_input("Username", key="login_username")
