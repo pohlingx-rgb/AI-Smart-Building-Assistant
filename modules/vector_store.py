@@ -171,38 +171,3 @@ def update_vector_store(file_path, index_name="combined_ops_index"):
     vector_store.save_local(save_path)
     st.success(f"✅ Created new index {index_name} with file: {os.path.basename(file_path)}")
     return vector_store
-    vector_store.save_local(save_path)
-    return vector_store
-
-# --- Build index from folder(s) ---
-def build_vector_store(folders, index_name):
-    """
-    Rebuild FAISS index from all files in one or more folders.
-    Args:
-        folders: str or list of folder paths
-        index_name: name of the FAISS index to save
-    """
-    if isinstance(folders, str):
-        folders = [folders]
-
-    all_chunks = []
-    for folder in folders:
-        if not os.path.exists(folder):
-            continue
-        for file in os.listdir(folder):
-            file_path = os.path.join(folder, file)
-            content = extract_text(file_path)
-            if not content.strip():
-                continue
-            chunks = chunk_document(content, file, file_path)
-            all_chunks.extend(chunks)
-
-    if not all_chunks:
-        st.warning(f"⚠️ No valid documents found in {folders}")
-        return None
-
-    save_path = os.path.join("data", index_name)
-    vector_store = FAISS.from_documents(all_chunks, embeddings)
-    vector_store.save_local(save_path)
-    st.success(f"✅ Rebuilt index {index_name} with {len(all_chunks)} chunks")
-    return vector_store
