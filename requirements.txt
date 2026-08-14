@@ -1,18 +1,18 @@
-streamlit==1.36.0
-python-dotenv==1.0.1
+streamlit>=1.28.0
+python-dotenv>=1.0.0
 
-# LangChain ecosystem
-langchain==0.2.14
-langchain-community==0.2.12
-langchain-openai==0.1.17
-langchain-text-splitters==0.2.2
+# LangChain (compatible with Streamlit Cloud)
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-openai>=0.0.6
 
-# Vector store
-faiss-cpu==1.14.3
+# Vector store (use nightly for better cloud compatibility)
+faiss-cpu>=1.7.4
 
 # Document parsing
-pypdf==4.2.0
-python-docx==1.1.2
+PyPDF2>=3.0.0
+python-docx>=0.8.11
 
-# Imaging (pin to stable wheel version)
-pillow==10.3.0
+# Core dependencies
+pillow>=9.0.0
+openai>=1.0.0
